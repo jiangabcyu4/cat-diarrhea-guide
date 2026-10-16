@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>猫咪腹泻深度科普与解决大全 v3 · 含多多（6月龄公狸花猫）专属方案</title>
+<style>
+  :root{
+    --bg:#f5f7f8; --card:#ffffff; --ink:#1f2933; --sub:#52606d; --line:#e0e6ea;
+    --accent:#0e7c86; --accent2:#1f6f78; --warm:#e08a2b; --warn:#c0392b; --ok:#2e8b57;
+    --soft:#eef4f5;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.75;font-size:16px;}
+  .wrap{max-width:980px;margin:0 auto;padding:0 18px 80px;}
+  header.cover{background:linear-gradient(135deg,#0e7c86,#155e63);color:#fff;padding:46px 24px 38px;margin-bottom:26px;}
+  header.cover .inner{max-width:980px;margin:0 auto;}
+  header.cover h1{margin:0 0 10px;font-size:30px;letter-spacing:.5px;}
+  header.cover .sub{opacity:.92;font-size:15px;}
+  header.cover .meta{margin-top:18px;font-size:13px;opacity:.85;}
+  h2{font-size:23px;margin:42px 0 14px;padding-left:13px;border-left:6px solid var(--accent);color:var(--accent2);}
+  h3{font-size:18px;margin:26px 0 10px;color:var(--accent2);}
+  h4{font-size:15.5px;margin:18px 0 8px;color:var(--ink);}
+  p{margin:10px 0;}
+  ul,ol{padding-left:22px;margin:10px 0;}
+  li{margin:6px 0;}
+  a{color:var(--accent);text-decoration:none;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:16px 0;box-shadow:0 1px 3px rgba(20,40,50,.05);}
+  .chart-box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:16px 0;overflow-x:auto;}
+  .chart-box svg{display:block;max-width:100%;height:auto;margin:0 auto;}
+  .note{background:var(--soft);border-left:5px solid var(--accent);padding:12px 16px;border-radius:8px;margin:14px 0;font-size:14.5px;}
+  .warn{background:#fdecea;border-left:5px solid var(--warn);padding:12px 16px;border-radius:8px;margin:14px 0;font-size:14.5px;}
+  .warn b{color:var(--warn);}
+  .ok{background:#eafaf0;border-left:5px solid var(--ok);padding:12px 16px;border-radius:8px;margin:14px 0;font-size:14.5px;}
+  .info{background:#f0f4ff;border-left:5px solid #4a6cf7;padding:12px 16px;border-radius:8px;margin:14px 0;font-size:14.5px;}
+  table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14.5px;background:var(--card);}
+  th,td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top;}
+  th{background:var(--soft);color:var(--accent2);font-weight:600;}
+  tr:nth-child(even) td{background:#fafcfc;}
+  .tag{display:inline-block;font-size:12px;padding:2px 9px;border-radius:20px;margin:2px 3px 2px 0;}
+  .layer{margin:8px 0;padding:10px 14px;border-radius:8px;font-size:14.5px;}
+  .layer.fact{background:#eef4f5;border-left:4px solid var(--accent);}
+  .layer.inf{background:#fff7ec;border-left:4px solid var(--warm);}
+  .layer.rec{background:#eafaf0;border-left:4px solid var(--ok);}
+  .layer b{display:block;margin-bottom:3px;font-size:13px;letter-spacing:.5px;}
+  .toc{columns:2;column-gap:30px;font-size:14.5px;}
+  .toc a{display:block;padding:3px 0;}
+  @media(max-width:680px){.toc{columns:1;}}
+  .quick{background:#fff;border:2px solid var(--accent);border-radius:12px;padding:18px 20px;margin:16px 0;}
+  .quick h3{margin-top:0;color:var(--accent);}
+  .src{font-size:13px;color:var(--sub);}
+  .src li{margin:4px 0;}
+  .recipe{background:#fff;border:1px solid var(--line);border-left:5px solid var(--warm);border-radius:10px;padding:14px 18px;margin:14px 0;}
+  .recipe h4{margin-top:0;color:var(--warm);}
+  .freeze{background:#fff;border:1px solid var(--line);border-left:5px solid #4a6cf7;border-radius:10px;padding:14px 18px;margin:14px 0;}
+  .freeze h4{margin-top:0;color:#4a6cf7;}
+  footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:13px;color:var(--sub);}
+  code{background:#f2f4f6;padding:1px 5px;border-radius:4px;font-size:13.5px;}
+  @media print{
+    body{background:#fff;font-size:12.5px;}
+    header.cover{background:#0e7c86 !important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    .card,.chart-box,.quick,.note,.warn,.ok,.info,.layer,.recipe,.freeze{page-break-inside:avoid;box-shadow:none;}
+    h2,h3{page-break-after:avoid;}
+    table{page-break-inside:avoid;}
+    a{color:var(--ink);}
+    @page{margin:14mm 12mm;}
+  }
+</style>
+</head>
+<body>
+<header class="cover">
+  <div class="inner">
+    <h1>猫咪腹泻 · 深度科普与解决大全（v3 修订）</h1>
+    <div class="sub">基于权威兽医信源的系统指南 ＋ 多多（6月龄·公·狸花猫）专属排查、调整、养护与行为方案</div>
+    <div class="meta">版本 v3 ｜ 生成日期 2026-10-15 ｜ 含修复后 SVG 图表 ｜ v3 修订：决策树完整重绘、食谱克数按体重计算、京东京造粮深度评估、毛色发黄、喂粮方式、行为训练、撸猫咬手</div>
+  </div>
+</header>
+
+<div class="wrap">
+
+<div class="warn">
+  <b>阅读须知（必读）：</b>本文为面向养猫人的<b>科普与居家管理参考</b>，内容来自公开权威兽医资料并标注来源，<b>不能替代执业兽医的诊断与治疗</b>。猫咪病情多变，出现血便、呕吐、沉郁、脱水、体重下降等警示信号，或腹泻持续不缓解，请及时就医。文中"京东京造"等具体商品仅为结合多多个案的客观评估，<b>不构成推荐或背书</b>。
+</div>
+
+<h2>目录</h2>
+<div class="card">
+  <nav class="toc">
+    <a href="#a">Part A 知识大科普</a>
+    <a href="#a1">A1 什么是腹泻（含粪便评分图）</a>
+    <a href="#a2">A2 四大病理机制（图解）</a>
+    <a href="#a3">A3 急性/慢性 + 小肠/大肠鉴别</a>
+    <a href="#a4">A4 常见病因谱</a>
+    <a href="#a5">A5 年龄分层</a>
+    <a href="#a6">A6 急诊红线</a>
+    <a href="#b">Part B 解决方法大全</a>
+    <a href="#b1">B1 标准化排查路径（决策树）</a>
+    <a href="#b2">B2 饮食调整：原料与理论＋按体重算量</a>
+    <a href="#b3">B3 水分管理</a>
+    <a href="#b4">B4 过渡换粮法（含"只有新粮"情形）</a>
+    <a href="#b5">B5 益生菌 / 益生元</a>
+    <a href="#b6">B6 常用药物机理与红线</a>
+    <a href="#b7">B7 居家护理与记录表</a>
+    <a href="#b75">B7.5 别的猫吃没事、他一吃就拉？</a>
+    <a href="#b8">B8 人猫可共享的恢复餐（5 个一锅菜谱）</a>
+    <a href="#b9">B9 可冷冻预制菜谱 5 个（加热即食）</a>
+    <a href="#b10">B10 京东京造 0谷物6肉8果蔬 猫粮评估</a>
+    <a href="#c">Part C 多多专属方案</a>
+    <a href="#c1">C1 个案时间线复盘</a>
+    <a href="#c2">C2 研判（事实/推断/建议）</a>
+    <a href="#c3">C3 14天调整计划</a>
+    <a href="#c4">C4 一页式快速排查卡</a>
+    <a href="#c5">C5 怎么喂：定时 vs 自由＋决策树</a>
+    <a href="#d">Part D 养护与行为</a>
+    <a href="#d1">D1 如何判断猫咪吃饱了</a>
+    <a href="#d2">D2 按体重计算每日猫粮量</a>
+    <a href="#d3">D3 定时定量 vs 自助采食</a>
+    <a href="#d4">D4 毛色变黄：营养不够还是其他原因</a>
+    <a href="#d5">D5 常见猫行为状态判断</a>
+    <a href="#d6">D6 如何训练猫咪</a>
+    <a href="#d7">D7 撸猫舒服却转头抱手咬：原因与改善</a>
+    <a href="#refs">参考文献与来源</a>
+  </nav>
+</div>
+
+<!-- ============ PART A ============ -->
+<h2 id="a">Part A · 知识大科普</h2>
+
+<h3 id="a1">A1 什么是腹泻</h3>
+<p><b>定义：</b>腹泻是粪便性状变稀、排便次数或总量多于正常，本质是"肠内容物通过过快 + 水分/电解质吸收减少"。VCA Animal Hospitals 明确指出：<b>腹泻本身不是疾病，而是众多疾病的共同症状</b>；即使由轻症引起，若不及时处理也可能因脱水等变得严重（VCA Animal Hospitals, "Diarrhea in Cats"）。</p>
+<p>健康猫的粪便应为<b>成形、分节、捡起不散</b>。判断是否腹泻，看三件事：<b>形态（软/糊/水）、频率（是否明显增多）、是否带血/黏液</b>。若频繁液状或半液状粪便<b>持续超过 2 天</b>，应咨询兽医（VCA）。</p>
+
+<div class="chart-box">
+  <h4 style="margin-top:0">图1 · 粪便性状评分谱（1–7 级，猫用改编版）</h4>
+  <svg viewBox="0 0 900 165" role="img" aria-label="粪便评分谱">
+    <defs>
+      <linearGradient id="pg" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#6b4423"/><stop offset="0.45" stop-color="#a9763e"/>
+        <stop offset="0.7" stop-color="#c9a06a"/><stop offset="0.85" stop-color="#d9c27e"/>
+        <stop offset="1" stop-color="#b9c34a"/>
+      </linearGradient>
+    </defs>
+    <g font-size="12" text-anchor="middle" font-family="inherit">
+      <rect x="10" y="14" width="120" height="46" fill="url(#pg)" rx="6"/>
+      <rect x="138" y="14" width="120" height="46" fill="url(#pg)" rx="6" opacity="0.93"/>
+      <rect x="266" y="14" width="120" height="46" fill="url(#pg)" rx="6" opacity="0.84"/>
+      <rect x="394" y="14" width="120" height="46" fill="url(#pg)" rx="6" opacity="0.74"/>
+      <rect x="522" y="14" width="120" height="46" fill="url(#pg)" rx="6" opacity="0.62"/>
+      <rect x="650" y="14" width="120" height="46" fill="url(#pg)" rx="6" opacity="0.5"/>
+      <rect x="778" y="14" width="112" height="46" fill="url(#pg)" rx="6" opacity="0.4"/>
+      <text x="70" y="42" fill="#fff">1 硬球</text><text x="198" y="42" fill="#fff">2 块硬</text>
+      <text x="326" y="42" fill="#2b2b2b">3 理想</text><text x="454" y="42" fill="#2b2b2b">4 软成</text>
+      <text x="582" y="42" fill="#3a3a3a">5 软碎</text><text x="710" y="42" fill="#3a3a3a">6 糊状</text>
+      <text x="834" y="42" fill="#3a3a3a">7 水样</text>
+      <text x="70" y="78">干/便秘</text><text x="198" y="78">正常偏硬</text>
+      <text x="326" y="78" fill="#0e7c86" font-weight="bold">健康区间</text><text x="454" y="78">偏软</text>
+      <text x="582" y="78">软便</text><text x="710" y="78">腹泻</text><text x="834" y="78">严重腹泻</text>
+      <text x="450" y="108" font-size="12.5" fill="#52606d">猫的理想粪便约在 2–3 级；4 级起属"软便"，5–7 级属腹泻。居家每天铲砂看一眼即可自评。</text>
+    </g>
+  </svg>
+</div>
+<div class="note">评分方法（居家可用）：每天记录便便落在哪一级、次数、颜色、是否带血/黏液。连续 3 天 ≥5 级即算"腹泻在活动"，应进入 Part B 排查流程。</div>
+
+<h3 id="a2">A2 腹泻的四大病理机制（为什么"拉稀"）</h3>
+<p>无论病因是什么，腹泻最终都通过以下四类机制之一（或组合）发生（catmd.ca, "Diarrhea"）：</p>
+<div class="chart-box">
+  <svg viewBox="0 0 900 250" role="img" aria-label="四大病理机制">
+    <g font-family="inherit" font-size="13">
+      <rect x="14" y="20" width="205" height="200" rx="10" fill="#eef4f5" stroke="#0e7c86"/>
+      <rect x="237" y="20" width="205" height="200" rx="10" fill="#eef4f5" stroke="#0e7c86"/>
+      <rect x="460" y="20" width="205" height="200" rx="10" fill="#eef4f5" stroke="#0e7c86"/>
+      <rect x="683" y="20" width="205" height="200" rx="10" fill="#eef4f5" stroke="#0e7c86"/>
+      <text x="116" y="48" text-anchor="middle" font-size="15" font-weight="bold" fill="#0e7c86">① 渗透性</text>
+      <text x="339" y="48" text-anchor="middle" font-size="15" font-weight="bold" fill="#0e7c86">② 分泌性</text>
+      <text x="562" y="48" text-anchor="middle" font-size="15" font-weight="bold" fill="#0e7c86">③ 渗出性</text>
+      <text x="785" y="48" text-anchor="middle" font-size="15" font-weight="bold" fill="#0e7c86">④ 动力性</text>
+      <text x="116" y="78" text-anchor="middle" font-size="12" fill="#52606d">Osmotic</text>
+      <text x="339" y="78" text-anchor="middle" font-size="12" fill="#52606d">Secretory</text>
+      <text x="562" y="78" text-anchor="middle" font-size="12" fill="#52606d">Exudative</text>
+      <text x="785" y="78" text-anchor="middle" font-size="12" fill="#52606d">Motility</text>
+      <text x="116" y="108" text-anchor="middle">未消化溶质</text><text x="116" y="128" text-anchor="middle">把水"拉"进肠腔</text>
+      <text x="339" y="108" text-anchor="middle">肠壁主动</text><text x="339" y="128" text-anchor="middle">"吐"出水/电解质</text>
+      <text x="562" y="108" text-anchor="middle">肠黏膜破损</text><text x="562" y="128" text-anchor="middle">漏血/蛋白/脓液</text>
+      <text x="785" y="108" text-anchor="middle">蠕动过快</text><text x="785" y="128" text-anchor="middle">来不及吸水</text>
+      <text x="116" y="162" text-anchor="middle" font-size="12" fill="#a9651b">例:吃多/</text><text x="116" y="180" text-anchor="middle" font-size="12" fill="#a9651b">不耐某成分</text>
+      <text x="339" y="162" text-anchor="middle" font-size="12" fill="#a9651b">例:细菌毒素/</text><text x="339" y="180" text-anchor="middle" font-size="12" fill="#a9651b">炎症(IBD)</text>
+      <text x="562" y="162" text-anchor="middle" font-size="12" fill="#a9651b">例:寄生虫/</text><text x="562" y="180" text-anchor="middle" font-size="12" fill="#a9651b">细菌感染/溃疡</text>
+      <text x="785" y="162" text-anchor="middle" font-size="12" fill="#a9651b">例:应激/</text><text x="785" y="180" text-anchor="middle" font-size="12" fill="#a9651b">肠易激</text>
+      <text x="450" y="240" text-anchor="middle" font-size="12.5" fill="#52606d">真实病例常为多种机制叠加；偷吃变质虾头即"渗透+分泌+渗出"三联击。</text>
+    </g>
+  </svg>
+</div>
+<div class="note">理论要点：<b>渗透性腹泻在禁食/减量后会明显减轻</b>（因为少了"未消化溶质"）；<b>分泌性/渗出性腹泻禁食也难停</b>，往往提示感染或炎症，需要就医。这条规律是居家判断"能不能先观察"的关键。</div>
+
+<h3 id="a3">A3 急性/慢性之分 ＋ 小肠/大肠鉴别</h3>
+<p><b>急慢性：</b>腹泻 <b>≤2–3 周</b>多为急性（食物、寄生虫、感染、应激）；<b>持续 &gt;3 周，或一个月内间歇性反复</b>即归为慢性（Expert Cat Care；SpectrumCare, "Chronic Diarrhea in Cats"）。慢性不等于严重，但意味着需要系统排查，而非仅靠禁食。</p>
+<p><b>定位（小肠 vs 大肠）</b>是兽医缩小病因范围的第一步。看大便"长什么样"就能初判（Small Animal Internal Medicine, 教科书 Table 11-1；Expert Cat Care）：</p>
+<table>
+  <thead><tr><th>特征</th><th>小肠性腹泻（Small bowel）</th><th>大肠性腹泻（Large bowel / 结肠）</th></tr></thead>
+  <tbody>
+    <tr><td>排便量</td><td>正常或增多</td><td>减少（每次少量）</td></tr>
+    <tr><td>排便频率</td><td>正常或轻度增多</td><td>明显增多（频繁跑砂盆）</td></tr>
+    <tr><td>黏液</td><td>通常无</td><td>常有（果冻状）</td></tr>
+    <tr><td>血</td><td>若有→黑便/柏油样（消化过）</td><td>常有鲜红血（hematochezia）</td></tr>
+    <tr><td>里急后重/努责</td><td>无</td><td>常有</td></tr>
+    <tr><td>呕吐</td><td>可能出现</td><td>可能出现</td></tr>
+    <tr><td>体重下降</td><td><b>常见</b></td><td>少见</td></tr>
+    <tr><td>典型病因</td><td>食物不耐受、IBD、寄生虫(蛔虫/绦虫)、胰/甲状腺/肝肾等全身病</td><td>结肠炎、应激、球虫/贾第虫、部分食物过敏、直肠异物</td></tr>
+  </tbody>
+</table>
+<div class="note">多多个案提示：<b>间歇性软便、精神食欲好、无血无黏液无消瘦</b>——更接近"轻度、以饮食/菌群相关为主"的模式，倾向于大肠性或轻度小肠性，暂未指向严重全身病。但仍需按慢性流程管理（见 Part C）。</div>
+
+<h3 id="a4">A4 常见病因谱（相对常见度，示意排名）</h3>
+<p>下图按"在居家猫中出现的大致相对频率"排序，<b>仅供优先级参考，非流行病学精确比例</b>。注意：小猫（如多多）感染性/饮食性占比更高。</p>
+<div class="chart-box">
+  <svg viewBox="0 0 900 300" role="img" aria-label="病因相对常见度">
+    <g font-family="inherit" font-size="13.5">
+      <text x="14" y="30">饮食相关（换粮/偷吃/不耐受/过量）</text><rect x="300" y="18" width="560" height="20" rx="5" fill="#0e7c86"/>
+      <text x="14" y="62">寄生虫（蛔虫/球虫/贾第虫/绦虫）</text><rect x="300" y="50" width="430" height="20" rx="5" fill="#1f9aa3"/>
+      <text x="14" y="94">应激 / 环境变化</text><rect x="300" y="82" width="360" height="20" rx="5" fill="#3fb0b8"/>
+      <text x="14" y="126">细菌/病毒感染（含猫瘟）</text><rect x="300" y="114" width="300" height="20" rx="5" fill="#6cc3c9"/>
+      <text x="14" y="158">食物过敏 / 食物反应性肠炎</text><rect x="300" y="146" width="270" height="20" rx="5" fill="#9ad2d6"/>
+      <text x="14" y="190">炎症性肠病（IBD）</text><rect x="300" y="178" width="210" height="20" rx="5" fill="#c2e3e5"/>
+      <text x="14" y="222">肠道菌群失衡（抗生素后等）</text><rect x="300" y="210" width="200" height="20" rx="5" fill="#d6eef0"/>
+      <text x="14" y="254">全身病（甲状腺/胰/肝肾）</text><rect x="300" y="242" width="150" height="20" rx="5" fill="#e7c98b"/>
+      <text x="14" y="286">肿瘤 / 异物梗阻</text><rect x="300" y="274" width="110" height="20" rx="5" fill="#e0a85a"/>
+      <text x="450" y="295" font-size="11.5" fill="#52606d">条越长＝在居家腹泻猫中相对越常见（示意，非精确统计）</text>
+    </g>
+  </svg>
+</div>
+
+<h3 id="a5">A5 年龄分层：幼猫 / 青年猫 / 老年猫</h3>
+<table>
+  <thead><tr><th>年龄段</th><th>更常见病因</th><th>特别提醒</th></tr></thead>
+  <tbody>
+    <tr><td><b>幼猫（&lt;6月，如多多）</b></td><td>寄生虫、感染、换粮/偷吃、先天性消化弱、低血糖风险</td><td>免疫系统未成熟；<b>禁食耐受差，小猫别长时间断食</b>；脱水更快</td></tr>
+    <tr><td>青年/中年（1–7岁）</td><td>食物过敏（食物反应性肠病）、IBD、应激、异物</td><td>慢性病开始显现，需做食物排查试验</td></tr>
+    <tr><td>老年（&gt;7岁）</td><td>慢性肾病、甲亢、肠癌、慢性胰炎、EPI</td><td>"吃多还瘦+一直拉"要查甲功/肾/胰</td></tr>
+  </tbody>
+</table>
+
+<h3 id="a6">A6 急诊红线：何时必须就医</h3>
+<div class="warn">
+  <b>出现以下任一，不要在家硬扛，尽快就医：</b>
+  <ul style="margin:6px 0">
+    <li><b>血便</b>（鲜红或黑柏油样）或大量黏液</li>
+    <li><b>呕吐</b>（尤其频繁、带黄绿胆汁、带血）</li>
+    <li><b>精神沉郁</b>：嗜睡、躲藏、反应迟钝、不爱动</li>
+    <li><b>脱水</b>：提起颈后皮肤回弹慢、牙龈干、眼窝凹陷</li>
+    <li><b>体重下降 / 消瘦</b>、食欲明显减退或拒食</li>
+    <li>腹泻 <b>持续 &gt;2 天无改善</b>，或 <b>反复发作超 3 周</b></li>
+    <li>疑似<b>吃了异物 / 有毒物</b>（葱蒜、葡萄、巧克力、药）</li>
+    <li><b>小猫（&lt;6月）腹泻伴精神差</b>——风险高于成年猫</li>
+  </ul>
+  来源：VCA Animal Hospitals；SpectrumCare；猫后苑（HK）。
+</div>
+
+<!-- ============ PART B ============ -->
+<h2 id="b">Part B · 解决方法大全</h2>
+
+<h3 id="b1">B1 标准化排查路径（决策树）</h3>
+<p>把"看到腹泻→该做什么"固化成一条可执行的链路。下图覆盖<b>居家观察 / 急诊 / 小肠·大肠定位 / 寄生虫 / 食物试验 / 进一步检查 / 换粮偷吃情形</b>。若图片显示异常，请用浏览器/ima客户端查看原文。</p>
+<div class="chart-box">
+  <svg viewBox="0 0 900 680" role="img" aria-label="腹泻标准化排查决策树">
+    <defs>
+      <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#52606d"/></marker>
+    </defs>
+    <g font-family="inherit" font-size="13" fill="#1f2933">
+      <!-- 起点 -->
+      <rect x="350" y="10" width="200" height="36" rx="8" fill="#0e7c86"/>
+      <text x="450" y="33" text-anchor="middle" fill="#fff" font-size="14">腹泻发生</text>
+      <line x1="450" y1="46" x2="450" y2="60" stroke="#52606d" marker-end="url(#ar)"/>
+      <!-- 问题1 -->
+      <polygon points="450,60 580,92 450,124 320,92" fill="#eef4f5" stroke="#0e7c86"/>
+      <text x="450" y="89" text-anchor="middle" font-size="12">≤2天 且</text>
+      <text x="450" y="108" text-anchor="middle" font-size="12">精神食欲正常？</text>
+      <!-- 是：居家观察 -->
+      <line x1="320" y1="92" x2="280" y2="125" stroke="#52606d" marker-end="url(#ar)"/>
+      <text x="305" y="86" font-size="11" fill="#2e8b57">是</text>
+      <rect x="20" y="120" width="260" height="58" rx="8" fill="#eafaf0" stroke="#2e8b57"/>
+      <text x="150" y="145" text-anchor="middle" font-size="12.5">居家观察＋单一易消化餐</text>
+      <text x="150" y="164" text-anchor="middle" font-size="12.5">＋记录（见 B2/B7）</text>
+      <!-- 否：问题2 -->
+      <line x1="450" y1="124" x2="450" y2="160" stroke="#52606d" marker-end="url(#ar)"/>
+      <text x="466" y="147" font-size="11" fill="#c0392b">否</text>
+      <polygon points="450,160 580,192 450,224 320,192" fill="#eef4f5" stroke="#0e7c86"/>
+      <text x="450" y="189" text-anchor="middle" font-size="12">有警示信号？</text>
+      <text x="450" y="208" text-anchor="middle" font-size="11" fill="#52606d">血/吐/沉郁/脱水/消瘦</text>
+      <!-- 是：急诊 -->
+      <line x1="580" y1="192" x2="620" y2="192" stroke="#52606d" marker-end="url(#ar)"/>
+      <text x="602" y="184" font-size="11" fill="#c0392b">是</text>
+      <rect x="620" y="168" width="260" height="48" rx="8" fill="#c0392b"/>
+      <text x="750" y="197" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">立即就医（急诊）</text>
+      <!-- 否：问题3 -->
+      <line x1="450" y1="224" x2="450" y2="260" stroke="#52606d" marker-end="url(#ar)"/>
+      <text x="466" y="247" font-size="11" fill="#1f6f78">否</text>
+      <polygon points="450,260 580,292 450,324 320,292" fill="#eef4f5" stroke="#0e7c86"/>
+      <text x="450" y="289" text-anchor="middle" font-size="12">大便特征定位？</text>
+      <!-- 小肠型 -->
+      <line x1="320" y1="292" x2="300" y2="327" stroke="#52606d" marker-end="url(#ar)"/>
+      <text x="292" y="285" font-size="11" fill="#1f6f78">小肠型</text>
+      <rect x="20" y="327" width="280" height="74" rx="8" fill="#eef4f5" stroke="#1f9aa3"/>
+      <text x="160" y="352" text-anchor="middle" font-size="12.5">小肠型：量大/消瘦/呕吐</text>
+      <text x="160" y="372" text-anchor="middle" font-size="12.5">→ 查全身病：血检·甲功·胰·</text>
+      <text x="160" y="390" text-anchor="middle" font-size="12.5">B12·腹腔超声</text>
+      <!-- 大肠型 -->
+      <line x1="580" y1="292" x2="600" y2="327" stroke="#52606d" marker-end="url(#ar)"/>
+      <text x="620" y="285" font-size="11" fill="#1f6f78">大肠型</text>
+      <rect x="600" y="327" width="280" height="74" rx="8" fill="#eef4f5" stroke="#1f9aa3"/>
+      <text x="740" y="352" text-anchor="middle" font-size="12.5">大肠型：频繁/黏液/鲜血</text>
+      <text x="740" y="372" text-anchor="middle" font-size="12.5">→ 粪检(注意假阴性)＋</text>
+      <text x="740" y="390" text-anchor="middle" font-size="12.5">食物排查试验 2–4 周</text>
+      <!-- 合并到仍无效 -->
+      <line x1="160" y1="401" x2="350" y2="430" stroke="#52606d" marker-end="url(#ar)"/>
+      <line x1="740" y1="401" x2="550" y2="430" stroke="#52606d" marker-end="url(#ar)"/>
+      <rect x="280" y="430" width="340" height="46" rx="8" fill="#fff3e0" stroke="#e08a2b"/>
+      <text x="450" y="452" text-anchor="middle" font-size="12.5">仍无效（&gt;2–4周）</text>
+      <text x="450" y="470" text-anchor="middle" font-size="12.5">→ 粪PCR / 肠镜活检 / 专科</text>
+      <!-- 贯穿说明 -->
+      <rect x="20" y="500" width="860" height="80" rx="8" fill="#f3f6f7" stroke="#b9c6c9"/>
+      <text x="36" y="522" font-size="12.5" font-weight="bold">贯穿所有分支的两件事：</text>
+      <text x="36" y="546" font-size="12.5" fill="#52606d">① 换粮/偷吃/只有新粮？→ 见 B4「只有新粮怎么办」与 C5 喂食决策；幼猫<b>别长时间断食</b>。</text>
+      <text x="36" y="568" font-size="12.5" fill="#52606d">② 全程记录便便分级（目标 2–3 级）、饮食、体重；带<b>当天新鲜粪便</b>就医以提高检出率。</text>
+    </g>
+  </svg>
+</div>
+
+<div class="ok"><b>居家可执行步骤（精神好、无警示信号时）：</b>
+<ol>
+  <li><b>记录</b>：便便分级、次数、颜色、血/黏液、进食量、精神状态（用 B7 表格）。</li>
+  <li><b>暂停"可疑新东西"</b>：停零食、停新粮、停一切人食；回到"已知不拉"的饮食（若老粮已无，按 B4 处理）。</li>
+  <li><b>单一易消化餐</b>：见 B2 居家温和餐；少食多餐（多多尤要）。</li>
+  <li><b>补水</b>：多放水碗/流动水/肉汤（无盐无葱蒜），见 B3。</li>
+  <li><b>观察 24–48 小时</b>：若升级为警示信号→就医；若好转→维持并缓慢过渡。</li>
+  <li><b>若 &gt;2 天无改善或反复</b>：带"当天新鲜粪便样本"就医，进入专业排查（B1 树）。</li>
+</ol>
+</div>
+
+<h3 id="b2">B2 饮食调整：原料与理论＋按体重算量（不推品牌，只讲该有什么、为什么、多少）</h3>
+<p>用户要求：<b>不推荐具体品牌商品</b>，只说明主要原料需要什么、理论依据是什么。以下按"原料 → 理论支持 → 给多多多少"展开。</p>
+
+<div class="card">
+  <h4 style="margin-top:0">按体重算每日粮量的通用公式（干粮）</h4>
+  <p><b>第一步：算静息热量 RER</b></p>
+  <p style="font-size:15px"><code>RER（kcal/日）= 70 × 体重(kg)^0.75</code></p>
+  <p><b>第二步：乘生长期系数</b></p>
+  <p>6 月龄未绝育幼猫：系数约 <b>1.8–2.0</b>；已绝育成猫：1.2–1.4；肥胖猫减重：0.8–1.0。</p>
+  <p><b>第三步：换算成干粮克数</b></p>
+  <p>普通膨化干粮热量约 <b>3.6–4.0 kcal/g</b>（以包装标注为准）。</p>
+  <p style="font-size:15px"><code>日粮克数 ≈ 日需热量 ÷ 干粮热量密度</code></p>
+  <p><b>快速查表（6 月龄幼猫，系数取 1.9）：</b></p>
+  <table>
+    <thead><tr><th>体重</th><th>RER</th><th>日需热量</th><th>日粮克数（按 3.8 kcal/g）</th><th>4 餐时每餐</th></tr></thead>
+    <tbody>
+      <tr><td>2.0 kg</td><td>~118 kcal</td><td>~224 kcal</td><td>~59 g</td><td>~15 g</td></tr>
+      <tr><td>2.5 kg</td><td>~139 kcal</td><td>~264 kcal</td><td>~69 g</td><td>~17 g</td></tr>
+      <tr><td><b>3.0 kg（默认按多多估算）</b></td><td>~160 kcal</td><td>~304 kcal</td><td>~80 g</td><td>~20 g</td></tr>
+      <tr><td>3.5 kg</td><td>~181 kcal</td><td>~344 kcal</td><td>~91 g</td><td>~23 g</td></tr>
+    </tbody>
+  </table>
+  <div class="note" style="margin-bottom:0"><b>怎么用：</b>先称多多当前体重，按上表找到基础值；若他"吃多就拉"，从<b>该体重范围的下限</b>开始，分 4 餐喂，观察便便 3–5 天。稳定在 2–3 级后，再每周加 3–5g  until 达到中位数。不要死守表格，<b>便便分级是最终裁判</b>。</div>
+</div>
+
+<table>
+  <thead><tr><th>原料（日常可购）</th><th>理论支持</th><th>给多多的量（6 月/约 3kg）</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><b>鸡胸肉</b>（超市/菜场，蒸熟，去皮去脂）</td>
+      <td>高消化率<b>动物蛋白</b>、低抗原性、低脂。未消化蛋白进入结肠被发酵→产气+渗透压↑→稀便；易消化的优质蛋白减少"漏网溶质"。腹泻期建议"高消化蛋白+低脂肪"（Radiokop Vet）。</td>
+      <td>作主食基底，按重量占餐量主体；与南瓜/少量碳水搭配。熟肉湿重每餐 30–50g（分 4 餐）。</td>
+    </tr>
+    <tr>
+      <td><b>南瓜</b>（菜场，蒸熟打成泥，<b>无任何添加</b>；贝贝南瓜亦可）</td>
+      <td>含<b>可溶性+不可溶性纤维</b>。可溶性纤维在肠腔吸水成凝胶→固化稀便、减慢通过速度；发酵产<b>短链脂肪酸(SCFAs)</b>养结肠细胞、养有益菌（prebiotic）。多个兽医科普一致推荐（Biology Insights；CatSphere；ScienceInsights）。</td>
+      <td><b>≤1 茶匙/天（≈5g），分 2 餐</b>；多多从 ¼–½ 茶匙/餐起。过量反致胀/泻（见"过量红线"）。</td>
+    </tr>
+    <tr>
+      <td><b>白米饭 / 米汤</b>（少量）</td>
+      <td>低敏、易消化碳水，供能且略"收敛"，是经典 bland diet 组分。猫非必需碳水，<b>仅恢复期少量</b>作粘合/能量。</td>
+      <td>占小比例（约餐量 10%）；非主食。</td>
+    </tr>
+    <tr>
+      <td><b>熟鸡蛋黄</b>（蒸熟，适量）</td>
+      <td>含卵磷脂、维生素与易吸收营养；<b>熟</b>制避免生蛋清中抗生物素蛋白(avidin)干扰。不过量、确认不过敏。</td>
+      <td>隔天半个蛋黄拌入；观察便便。</td>
+    </tr>
+    <tr>
+      <td><b>凉白开 / 无盐无葱蒜肉汤</b></td>
+      <td>腹泻丢水丢电解质；猫渴感弱、吃干粮更易缺水。增加液体摄入防脱水、软化通过（VCA：腹泻猫必须保证饮水）。</td>
+      <td>多置水碗＋流动水；肉汤每日少量。</td>
+    </tr>
+    <tr>
+      <td><b>益生菌</b>（含特定菌株，见 B5）</td>
+      <td>菌株特异性地恢复菌群、竞争病原、产 SCFAs、提升肠道 IgA。</td>
+      <td>按说明拌入；水温≤40℃以免杀活菌。</td>
+    </tr>
+    <tr>
+      <td><b>洋车前子壳粉</b>（可溶性纤维，极少量）</td>
+      <td>高纯度可溶性纤维，大肠性腹泻时形成凝胶固化粪便；需充分泡发。<b>用量需兽医指导</b>，过量反致胀/泻。</td>
+      <td>极少量（牙签尖）泡水后拌入；非必需。</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="info"><b>南瓜为什么能帮猫咪"固便"？</b>南瓜富含可溶性纤维，蒸熟压成泥喂下后，纤维在肠道里吸水膨胀、形成柔软凝胶，把松散的水分"兜住"，帮助便便从糊状/水样慢慢回到成形状态。它<b>不是止泻药</b>，不会抑制肠蠕动，只是让水分和成形度更正常，相当于天然的"固便帮手"。营养学上把这类能让稀便"拢"成形的物质称为<b>固便/收敛剂</b>，日常中文我们直接说<b>"南瓜帮助固便"</b>或<b>"南瓜的收敛成型作用"</b>就好，后文统一用这两种中文说法。</div>
+
+<div class="note"><b>茶匙到底是多少（按克数）？</b> 1 茶匙(teaspoon, tsp)≈5 mL；南瓜泥/肉泥密度接近 1 g/mL，故 <b>1 茶匙 ≈ 5 克</b>。常用换算：
+<table>
+  <thead><tr><th>量</th><th>近似体积</th><th>近似重量（南瓜/肉泥）</th></tr></thead>
+  <tbody>
+    <tr><td>¼ 茶匙</td><td>1.25 mL</td><td>≈ 1.25 g</td></tr>
+    <tr><td>½ 茶匙</td><td>2.5 mL</td><td>≈ 2.5 g</td></tr>
+    <tr><td>1 茶匙(tsp)</td><td>5 mL</td><td>≈ 5 g</td></tr>
+    <tr><td>1 汤匙(tbsp)</td><td>15 mL</td><td>≈ 15 g</td></tr>
+  </tbody>
+</table>
+<i>注：干料（如洋车前子壳粉）更轻，同体积克数更小；湿泥按上表估即可。</i></div>
+
+<div class="warn"><b>过量红线（量化清楚）：</b>
+<table>
+  <thead><tr><th>项目</th><th>3kg 幼猫合理量</th><th>过量信号 / 红线</th></tr></thead>
+  <tbody>
+    <tr><td>干粮 / 日</td><td>60–84 g（分 3–4 餐）</td><td>持续 &gt;90 g/日 或 单餐吃撑 → 软便/吐</td></tr>
+    <tr><td>单餐（4 餐制）</td><td>15–21 g</td><td>单餐 &gt;30 g 且便便变软 → 立即减</td></tr>
+    <tr><td>南瓜 / 日</td><td>≤ 1 茶匙(≈5 g)，分 2 餐</td><td><b>&gt;2 茶匙(≈10 g)/日 → 胀气、反致泻</b></td></tr>
+    <tr><td>鸡胸肉湿重（作主食）</td><td>每日 120–200 g 湿重，分 4 餐</td><td>纯肉无碳水长期→营养不全；需搭配南瓜/少量碳水</td></tr>
+    <tr><td>零食 / 猫条</td><td>恢复期尽量 0</td><td>任何猫条都可能诱发（见 B7.5）</td></tr>
+  </tbody>
+</table>
+判断"过量"的黄金标准：<b>便便从 2–3 级掉到 4 级及以上、或腹胀/呕吐</b>＝这餐/这天多了，下次减 10–15%。</div>
+
+<div class="card">
+  <h4 style="margin-top:0">居家"温和餐"参考配方（腹泻活动期 / 过渡期）＋ 一锅出做法</h4>
+  <p><b>组成：</b>蒸熟鸡胸肉（去脂）70% ＋ 熟南瓜泥 20% ＋ 软米饭/米汤 10% ＋ 少许无盐肉汤调湿度。</p>
+  <p><b>多多的量（按 3kg 算）：</b>每日总量约 <b>150–200 g 湿重</b>，分 <b>4 餐</b>，每餐约 <b>40–50 g</b>。若便便偏软，先给下限（每餐 35g）；稳定后再提到中上限。</p>
+  <p><b>一锅出做法（鸡胸肉＋贝贝南瓜同锅蒸）：</b>鸡胸肉 1 块（约 100g，去皮去脂）＋ 贝贝南瓜 100g（去皮去籽切小块）放入蒸锅/盘，<b>水开后蒸 12–15 分钟</b>至肉熟透、南瓜软烂；取出鸡肉撕碎/切小丁，南瓜压成泥，按 7:3 混合后拌少许蒸出的原汤调湿度即可。<b>人猫可同锅：人那份盛出后自行加酱油/椒盐；猫那份保持原味无盐无葱蒜。</b></p>
+  <p><b>理论：</b>高消化动物蛋白（少渗漏溶质）＋可溶性纤维（吸水固化）＋低脂肪（减轻负担）＋少量易消化碳水（能量）＋少食多餐（降低每餐渗透压负荷）。便便回到 2–3 级稳定 3–5 天后，再按 B4 缓慢过渡到常态饮食。</p>
+  <div class="warn" style="margin-bottom:0"><b>绝对避免：</b>高盐/调味人食、生肉生鱼、虾壳虾头、牛奶（猫乳糖不耐）、高脂、葱蒜（溶血）、葡萄/巧克力、突然换粮、多种零食轮换、人用止泻药（多数对猫有毒，须兽医处方）。</div>
+</div>
+
+<h3 id="b3">B3 水分管理</h3>
+<ul>
+  <li><b>为什么重要</b>：猫祖先来自干旱环境，渴感弱；吃干粮猫普遍慢性缺水。腹泻时水分从肠道大量丢失，<b>脱水是幼猫最危险的并发症</b>。</li>
+  <li><b>怎么做</b>：家中≥2 个水碗分散放置；用流动饮水机提升兴趣；湿粮/肉汤提升摄入；腹泻期可少量多次补电解质（兽用口服补液盐，遵医嘱）。</li>
+  <li><b>自测脱水</b>：提颈后皮肤，松手后 1 秒内回弹为正常；回弹慢、牙龈干、眼窝凹＝脱水，就医。</li>
+</ul>
+
+<h3 id="b4">B4 过渡换粮法（7 日 / 14 日）＋「只有新粮、老粮买不到」情形</h3>
+<p>猫肠道菌群对旧粮配方有"记忆"，骤换→菌群来不及适配→渗透压失衡/发酵→软便。权威营养学会与多篇兽医科普均推荐<b>渐进换粮</b>；肠胃敏感/幼猫/慢性肠病者拉长到 <b>10–14 天</b>（台湾宠物营养保健食品学会；东北网引《2026中国宠物行业白皮书》；氧宠博士）。</p>
+<div class="chart-box">
+  <svg viewBox="0 0 900 220" role="img" aria-label="7日与14日换粮比例">
+    <g font-family="inherit" font-size="12.5">
+      <text x="14" y="22" font-weight="bold" fill="#0e7c86">7日法（健康成猫）</text>
+      <rect x="150" y="10" width="120" height="22" fill="#1f9aa3"/><rect x="270" y="10" width="360" height="22" fill="#eef4f5" stroke="#cdd6da"/>
+      <text x="150" y="36" dx="4">D1-2 新25%</text>
+      <rect x="150" y="38" width="240" height="22" fill="#1f9aa3"/><rect x="390" y="38" width="240" height="22" fill="#eef4f5" stroke="#cdd6da"/>
+      <text x="150" y="64" dx="4">D3-4 新50%</text>
+      <rect x="150" y="66" width="360" height="22" fill="#1f9aa3"/><rect x="510" y="66" width="120" height="22" fill="#eef4f5" stroke="#cdd6da"/>
+      <text x="150" y="92" dx="4">D5-6 新75%</text>
+      <rect x="150" y="94" width="480" height="22" fill="#0e7c86"/>
+      <text x="150" y="120" dx="4" fill="#fff">D7 新100%</text>
+
+      <text x="14" y="158" font-weight="bold" fill="#e08a2b">14日法（敏感/幼猫/慢性）</text>
+      <rect x="150" y="140" width="60" height="22" fill="#e08a2b"/><rect x="210" y="140" width="420" height="22" fill="#eef4f5" stroke="#cdd6da"/>
+      <text x="150" y="166" dx="2" font-size="11">D1-3 新15%</text>
+      <rect x="150" y="168" width="150" height="22" fill="#e08a2b"/><rect x="300" y="168" width="330" height="22" fill="#eef4f5" stroke="#cdd6da"/>
+      <text x="150" y="194" dx="2" font-size="11">D4-7 新35%</text>
+      <rect x="150" y="196" width="270" height="22" fill="#e08a2b"/><rect x="420" y="196" width="210" height="22" fill="#eef4f5" stroke="#cdd6da"/>
+      <text x="150" y="212" dx="2" font-size="11">D8-11 新60%</text>
+      <text x="14" y="216" font-size="11" fill="#52606d">蓝/橙=新粮占比，灰=旧粮</text>
+    </g>
+  </svg>
+</div>
+<div class="note"><b>便便是推进依据，不是日历：</b>出现软便→停在当前比例稳住 2–3 天；加重→退回上一档甚至回旧粮；一切正常才进下一档。敏感猫实际常需 10–14 天，慢不是失败。</div>
+
+<div class="card">
+  <h4 style="margin-top:0">⚠️ 只有新粮、老粮买不到（多多当前情形）</h4>
+  <p>多多目前"老粮只剩一点、买不到了、只有新粮（京东京造）"，无法做经典的旧:新混合过渡。处理原则：</p>
+  <ol>
+    <li><b>榨干最后一点老粮做缓冲</b>：若还剩少许老粮，把它与<b>大量新粮</b>按 老 20%:新 80% 先混 2–3 天，再 0:100，相当于用极少老粮"稀释"新粮冲击（比直接全换温和）。</li>
+    <li><b>若老粮彻底没有 → 必须全换新粮时，用"温和餐桥接法"降低刺激</b>：先以 B2 的鸡胸肉+南瓜温和餐为主食 2–3 天，让肠道休息；随后把新粮<b>碾碎/泡软</b>少量拌入温和餐，从 15–25% 新粮开始，按 14 日法的节奏（但用"新粮占温和餐比例"来推进）缓慢加到全量。</li>
+    <li><b>全程少食多餐＋南瓜帮助固便（¼–½ 茶匙/餐）</b>，每天记便便分级。</li>
+    <li><b>红线</b>：全换新粮后若便便 ≥5 级持续 &gt;2 天、或呕吐/沉郁 → 立即就医，并考虑改用兽医处方胃肠粮或低敏粮（见 B7.5 / C2）。</li>
+  </ol>
+  <p style="font-size:13.5px;color:#52606d">核心：不能渐混时，用"温和餐桥接 + 泡软新粮 + 慢比例"替代"旧:新混合"，目标同样是给肠道菌群适应期，而不是硬切。</p>
+</div>
+
+<h3 id="b5">B5 益生菌 / 益生元</h3>
+<div class="layer fact"><b>事实层（有研究支持）</b>猫咪腹泻相关益生菌证据最强的是<b>特定菌株</b>：<i>Enterococcus faecium</i> SF68。随机对照试验显示，服 SF68 的猫腹泻评分显著低于安慰剂组（P=0.0058，PubMed 29291771, 2017）；该菌株在收容所猫、慢性非特异性腹泻猫、幼猫中均被证实可改善粪便质量/预防腹泻（Purina FortiFlora 资料；AAFP 会议综述）。<i>Saccharomyces boulardii</i>（布拉氏酵母）在人或犬猫腹泻中亦有应用（氧宠博士提及）。</div>
+<div class="layer inf"><b>推断层</b>多多属"菌群偏弱＋急性炎症后未完全恢复"，补充<b>有研究背书、标明菌株与活菌数</b>的益生菌，理论上有助于菌群重建与肠黏膜修复，但属于辅助而非治疗根本病因。</div>
+<div class="layer rec"><b>建议层</b>选购时认"菌株名＋活菌数 CFU＋有临床研究/兽医推荐"，不迷信"含益生菌"泛称；AAFP 综述提醒部分产品<b>实际活菌不达标</b>，质量参差。拌入食物、水温≤40℃。</div>
+
+<h3 id="b6">B6 常用药物机理与红线</h3>
+<table>
+  <thead><tr><th>类别</th><th>机理</th><th>居家红线</th></tr></thead>
+  <tbody>
+    <tr><td>蒙脱石类（吸附剂）</td><td>物理吸附毒素/水分、保护黏膜</td><td>需兽医指导用量；与益生菌/药隔开 2h 服，否则互相吸附失效</td></tr>
+    <tr><td>益生菌（见 B5）</td><td>恢复菌群、竞争病原</td><td>选对菌株；非万能，无效要查因</td></tr>
+    <tr><td>抗生素（如甲硝唑）</td><td>杀厌氧病原/抗炎（IBD）</td><td><b>必须兽医处方</b>；滥用伤菌群；幼猫剂量敏感</td></tr>
+    <tr><td>驱虫药</td><td>清除寄生虫</td><td>即便粪检阴性，慢性软便兽医常仍建议"经验性驱虫"；按体重给药</td></tr>
+    <tr><td>人用止泻药</td><td>—</td><td><b>多数对猫有毒（如洛哌丁胺可致中枢抑制），严禁自用</b></td></tr>
+  </tbody>
+</table>
+<div class="warn"><b>红线总结：</b>任何人用止泻/抗菌药都不要给猫自行使用；药物仅限兽医处方。居家能做的=饮食管理＋补水＋记录＋益生菌辅助。</div>
+
+<h3 id="b7">B7 居家护理与记录表</h3>
+<p>记录是给兽医最有价值的素材。建议连续记 2 周：</p>
+<table>
+  <thead><tr><th>日期</th><th>便便分级(1-7)</th><th>次数</th><th>颜色/血/黏液</th><th>当日饮食</th><th>精神/食欲</th><th>备注</th></tr></thead>
+  <tbody>
+    <tr><td>__</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>__</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>__</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+<div class="note">同时每周称一次体重（幼猫用厨房秤），毛色/体重是比便便更客观的"长期健康指标"。多多"发黄"建议同步观察体重与营养摄入。</div>
+
+<h3 id="b75">B7.5 别的猫吃罐头/猫条没事，多多一吃就拉？是肠胃弱，还是量大？</h3>
+<p>多多 4 个多月吃罐头/全价湿粮就腹泻，当时以为恢复、后来才察觉是猫条或罐头导致的——这类"别人吃没事、他一吃就事"很典型，原因通常是<b>多重叠加</b>，而非单一：</p>
+<table>
+  <thead><tr><th>可能原因</th><th>机制</th><th>对应多多的情况</th></tr></thead>
+  <tbody>
+    <tr><td><b>先天/幼期肠道耐受弱</b>（"玻璃胃"）</td><td>菌群定植弱、消化酶与黏膜屏障未稳；幼期"很饿→暴食→软便"进一步损伤耐受力</td><td>高度符合：他从小吃多就拉、减量才正常</td></tr>
+    <tr><td><b>食物不耐受（非过敏）</b></td><td>剂量依赖：某种成分（胶质增稠剂、动物消化物、鱼/禽脂肪、特定蛋白）超过他肠道处理能力即泻，<b>与"别的猫"无关</b></td><td>罐头/猫条常含卡拉胶、瓜尔胶、诱食剂、较高脂肪</td></tr>
+    <tr><td><b>单次吃得偏多</b></td><td>猫条/罐头适口性高→他容易一次吃超量→渗透性腹泻</td><td>需结合"吃多就拉"的体质判断</td></tr>
+    <tr><td><b>添加剂/高脂刺激</b></td><td>零食类脂肪与风味剂偏高，敏感肠易激</td><td>猫条尤甚</td></tr>
+    <tr><td><b>菌群未建立</b></td><td>幼猫菌群本就脆弱，湿粮/零食改变更快</td><td>符合年龄</td></tr>
+  </tbody>
+</table>
+<div class="ok"><b>结论：</b>更可能是"<b>敏感肠 + 不耐受（剂量/成分依赖）+ 可能吃多</b>"的组合，<b>不一定是"过敏"</b>。过敏通常伴随瘙痒/呕吐且微量即发；他主要是腹泻且"吃多/特定零食"诱发，更偏不耐受。处理：<b>恢复期严格停猫条与罐头</b>，待肠道稳定后若想尝试湿粮，用"单一蛋白、无胶质增稠剂"的处方/低敏湿粮，从极少量（指甲盖大小）开始、3–5 天观察，逐步加量——这本身就是 B1 树里的"食物排查试验"。</div>
+
+<h3 id="b8">B8 人猫可共享的恢复餐（5 个一锅出菜谱）</h3>
+<p>以下食材对<b>猫恢复</b>与<b>人营养</b>都友好（瘦肉蛋白＋可溶性纤维＋补水）。<b>铁律：猫那份必须原味——无盐、无葱蒜、无油、无调味；人那份盛出后再自行加盐/酱油/香料。</b>葱蒜类对猫溶血有毒，务必分碗前分开。</p>
+<p><b>给猫的量通用原则（默认按 3kg 幼猫）：</b>以下菜谱猫每日总量约 <b>150–200 g 湿重</b>，分 <b>4 餐</b>，每餐 <b>40–50 g</b>。若便便偏软先从每餐 35 g 起；若吃干粮，则干粮按 D2 公式，这些菜只作为辅食/过渡餐。</p>
+
+<div class="recipe">
+  <h4>① 鸡胸肉＋贝贝南瓜 一锅蒸（最基础）</h4>
+  <p><b>食材</b>：鸡胸肉 1 块（约 100g）、贝贝南瓜 100g（去皮去籽切块）。</p>
+  <p><b>做法</b>：同盘水开后蒸 12–15 分钟，肉熟南瓜烂；肉撕丁、南瓜压泥，按 7:3 混合，拌少许原汤。</p>
+  <p><b>多多的量</b>：每日 150–200g（分 4 餐，每餐 40–50g）。</p>
+  <p><b>人猫分餐</b>：猫吃原味；人蘸酱油/椒盐。</p>
+</div>
+<div class="recipe">
+  <h4>② 鸡胸肉南瓜小米粥（肠胃温和）</h4>
+  <p><b>食材</b>：鸡胸肉 80g（剁碎）、贝贝南瓜 80g（泥）、小米 30g。</p>
+  <p><b>做法</b>：小米先煮 10 分钟，加鸡肉碎与南瓜泥再煮 8 分钟成粥。</p>
+  <p><b>多多的量</b>：每日 160–220g 粥（分 4 餐，每餐 40–55g）；小米只是辅助，猫那碗以肉南瓜为主。</p>
+  <p><b>人猫分餐</b>：人可加盐/蛋/青菜；猫那份无盐。</p>
+</div>
+<div class="recipe">
+  <h4>③ 全熟水煮蛋＋南瓜泥（高蛋白）</h4>
+  <p><b>食材</b>：鸡蛋 1–2 个、贝贝南瓜 80g。</p>
+  <p><b>做法</b>：鸡蛋冷水煮 10 分钟全熟；南瓜蒸/煮烂压泥。</p>
+  <p><b>多多的量</b>：蛋黄 ½ 个／天＋南瓜泥 5g（约 1 茶匙），分 2 餐拌入主食；蛋白少量给，观察耐受。</p>
+  <p><b>人猫分餐</b>：人吃全蛋；猫只吃蛋黄＋少量蛋白。</p>
+</div>
+<div class="recipe">
+  <h4>④ 鸡胸肉胡萝卜冬瓜清汤（补水优先）</h4>
+  <p><b>食材</b>：鸡胸肉 100g、胡萝卜 30g、冬瓜 50g（均切块）。</p>
+  <p><b>做法</b>：清水煮 15 分钟成清汤，肉菜捞出。</p>
+  <p><b>多多的量</b>：肉＋菜每日 100–150g（分 3–4 餐），另喝 30–50mL 无盐清汤。</p>
+  <p><b>人猫分餐</b>：猫那份先捞出，再加盐/葱给人。</p>
+</div>
+<div class="recipe">
+  <h4>⑤ 鸡胸肉＋南瓜＋白菜 一锅炖（饱腹版）</h4>
+  <p><b>食材</b>：鸡胸肉 100g、贝贝南瓜 100g、白菜叶 50g。</p>
+  <p><b>做法</b>：鸡肉先炖 8 分钟，下南瓜再 5 分钟，最后下白菜 2 分钟。</p>
+  <p><b>多多的量</b>：每日 150–200g（分 4 餐，每餐 40–50g），白菜给少量即可。</p>
+  <p><b>人猫分餐</b>：人吃整锅加盐/生抽；猫吃原味。</p>
+</div>
+<div class="note">以上 5 款均可"人猫同锅、分碗调味"。恢复关键食材就三样：<b>鸡胸肉（优质蛋白）、贝贝南瓜（可溶性纤维帮助固便）、足量饮水</b>。零食/猫条/罐头在恢复期内一律不共享。</div>
+
+<h3 id="b9">B9 可冷冻预制菜谱 5 个（一次备餐，随吃随热）</h3>
+<p>适合周末批量做、分装冷冻，工作日取出蒸/微波加热即可喂猫（加热后放凉至温热，≤40℃，避免烫伤）。所有预制菜<b>猫的那份仍须无盐无葱蒜</b>。</p>
+<p><b>冷冻与复热原则：</b>用食品级硅胶冰格或密封小袋分装成"一餐一份"；冷冻 ≤2 周为宜；复热蒸 8–10 分钟或微波 20–30 秒，中间搅拌防烫不均。复热后当天吃完，不复冻。</p>
+
+<div class="freeze">
+  <h4>① 鸡肉南瓜泥冰格（最通用）</h4>
+  <p><b>食材</b>：鸡胸肉 400g、贝贝南瓜 200g、原汤 50mL。</p>
+  <p><b>做法</b>：鸡肉蒸熟撕碎/打碎，南瓜蒸熟压泥，混合成湿润泥状；填入冰格，每格约 40g；冷冻。</p>
+  <p><b>多多的量</b>：每餐取 1 格（约 40g），每日 4 格；可单独吃，也可拌入泡软的干粮。</p>
+</div>
+<div class="freeze">
+  <h4>② 鸡肉胡萝卜小丸子</h4>
+  <p><b>食材</b>：鸡胸肉 300g、胡萝卜 80g（煮熟打泥）、少量南瓜泥 50g。</p>
+  <p><b>做法</b>：所有材料用料理机打成肉泥，搓成 20g/个的小丸子；蒸熟后放凉冷冻。</p>
+  <p><b>多多的量</b>：每餐 2 个（约 40g），每日 4 餐共 8 个。复热蒸 8 分钟。</p>
+</div>
+<div class="freeze">
+  <h4>③ 三文鱼南瓜泥（仅限确认对鱼耐受）</h4>
+  <p><b>食材</b>：三文鱼 200g、南瓜 150g。</p>
+  <p><b>做法</b>：三文鱼蒸熟去刺捣泥，南瓜压泥，混合后分装。</p>
+  <p><b>注意</b>：多多对虾头敏感，鱼类/海鲜需谨慎。建议肠道稳定 2 周后，先试 5g 观察 3 天；无反应再增量。</p>
+  <p><b>多多的量</b>：确认耐受后每餐 35–40g，每日 4 餐。不耐受则弃用。</p>
+</div>
+<div class="freeze">
+  <h4>④ 鸡肉冬瓜补水块</h4>
+  <p><b>食材</b>：鸡胸肉 300g、冬瓜 200g（切块）、清水 100mL。</p>
+  <p><b>做法</b>：鸡肉与冬瓜加水煮 15 分钟，连汤带料打成泥，分装冷冻。</p>
+  <p><b>多多的量</b>：每餐取 1 份约 50g（含汤），每日 4 份。特别适合腹泻补水期。</p>
+</div>
+<div class="freeze">
+  <h4>⑤ 蛋黄鸡肉能量块</h4>
+  <p><b>食材</b>：鸡胸肉 300g、熟蛋黄 3 个、南瓜泥 100g。</p>
+  <p><b>做法</b>：鸡肉蒸熟打碎，蛋黄压碎，与南瓜泥拌匀，压成薄饼后切 3cm 方块；冷冻。</p>
+  <p><b>多多的量</b>：每餐 1 块（约 35–40g），每日 4 块。蛋黄每周总量不超过 2–3 个，本配方按 1 周量做。</p>
+</div>
+
+<h3 id="b10">B10 京东京造 0谷物6肉8果蔬 猫粮评估</h3>
+<p>以下基于商品详情页公开成分与营养指标，结合中国猫粮国标 GB/T 31217-2014 做客观判断，<b>不构成购买推荐</b>。</p>
+<table>
+  <thead><tr><th>指标</th><th>京东京造 0谷物6肉8果蔬</th><th>国标要求（幼猫/成猫）</th><th>是否达标</th></tr></thead>
+  <tbody>
+    <tr><td>粗蛋白质</td><td>≥38%（部分规格 42%）</td><td>幼猫≥28%，成猫≥25%</td><td>✅ 达标且偏高</td></tr>
+    <tr><td>粗脂肪</td><td>≥16%</td><td>≥9%</td><td>✅ 达标</td></tr>
+    <tr><td>牛磺酸</td><td>≥0.2%</td><td>干粮≥0.1%</td><td>✅ 达标</td></tr>
+    <tr><td>粗纤维</td><td>未完整标注</td><td>—</td><td>⚠️ 未知</td></tr>
+    <tr><td>钙 / 总磷</td><td>钙≥1.0%；总磷商品页标"≥16%"（明显为数据录入错误，真实值应在 0.8–1.2% 区间）</td><td>钙≥1.0%，磷≥0.8%，钙磷比 1:1–2:1</td><td>⚠️ 公开数据有矛盾，无法核验钙磷比</td></tr>
+    <tr><td>谷物</td><td>0 谷物</td><td>无强制要求</td><td>✅ 对谷物敏感猫友好</td></tr>
+    <tr><td>动物蛋白来源</td><td>鲜鸡肉、鸭肉粉、牛肉粉、羊肉粉、鳗鱼/鳀鱼粉、磷虾粉（共 6 种肉）</td><td>—</td><td>⚠️ 肉源复杂</td></tr>
+    <tr><td>果蔬/其他</td><td>西蓝花、苹果、南瓜粉、菠菜、胡萝卜、蔓越莓粉、蓝莓、番茄（8 种）＋200亿 CFU/kg 益生菌</td><td>—</td><td>⚠️ 成分繁多，敏感猫风险↑</td></tr>
+  </tbody>
+</table>
+
+<div class="layer fact"><b>事实层</b>从粗蛋白、粗脂肪、牛磺酸三项核心营养看，该粮达到并超过国标，属于"营养指标合格"的干粮。</div>
+<div class="layer inf"><b>推断层（针对多多个案）</b>
+<ul>
+  <li><b>0 谷物是优点</b>：减少麸质等植物抗原对敏感肠的刺激。</li>
+  <li><b>6 种肉 + 8 种果蔬是双刃剑</b>：对普通猫意味着"营养多样"；对多多这种 already 敏感、曾因虾头/湿粮/零食腹泻的猫，<b>原料越复杂，潜在不耐受/过敏触发点越多</b>。</li>
+  <li><b>含鱼贝类（鳗鱼/鳀鱼/磷虾）</b>：多多此前对虾头反应强烈，虾属于甲壳类，磷虾也是甲壳类；鱼类亦是常见食物不耐受源。该配方对他存在<b>理论风险</b>。</li>
+  <li><b>公开钙磷数据有错误</b>：商品页"总磷≥16%"不可能，真实磷含量未知，无法判断钙磷比是否在安全范围。长期钙磷失衡影响骨骼与肾脏。</li>
+  <li><b>益生菌宣传</b>：200亿 CFU/kg 是添加量，不等于到达肠道时的活菌数；高温膨化会杀死部分菌株，实际效果看具体工艺与包被。</li>
+</ul>
+</div>
+<div class="layer rec"><b>建议层</b>
+<ol>
+  <li><b>可以短期作为"只有新粮"的过渡选择</b>：毕竟营养指标合格、0 谷物，比直接断粮或长期吃单一鸡胸肉更符合猫全面营养需求。</li>
+  <li><b>但不建议作为多多的"终身唯一粮"</b>：若按 C3 14 天计划喂后，便便仍反复 ≥4 级，说明他对其中某个/某些原料不耐受，应换<b>单一肉源低敏粮</b>或<b>兽医胃肠道处方粮</b>。</li>
+  <li><b>更优的长期方向</b>：稳定后选择肉源简单（如单一鸡肉/鸭肉）、0 谷物、无鱼贝、有明确菌株益生菌的低敏粮，或在兽医指导下做食物排查试验。</li>
+  <li><b>喂法</b>：按 B4"只有新粮"桥接法过渡，不要直接全换；日粮总量参考 D2 按体重计算，从下限开始。</li>
+</ol>
+</div>
+
+<!-- ============ PART C ============ -->
+<h2 id="c">Part C · 多多专属方案</h2>
+
+<h3 id="c1">C1 个案时间线复盘</h3>
+<table>
+  <thead><tr><th>时间</th><th>事件</th><th>解读</th></tr></thead>
+  <tbody>
+    <tr><td>幼年期</td><td>很饿→暴食→软便；减量后正常才打疫苗</td><td>先天/喂养不规律致肠道耐受力偏弱，"吃多就拉"体质</td></tr>
+    <tr><td>4 个月+</td><td>吃罐头/全价湿粮后出现腹泻；当时以为恢复，后察觉是猫条/罐头导致</td><td>早期即对湿粮/零食（胶质、高脂、诱食剂）敏感，佐证"玻璃胃"</td></tr>
+    <tr><td>约 1 个月前（先）</td><td><b>打第 2 针疫苗</b></td><td>疫苗轻微应激，免疫系统波动</td></tr>
+    <tr><td>其后（后）</td><td><b>偷吃垃圾桶虾头</b> → 腹泻开始</td><td>虾头诱因叠加：几丁质+组胺+高钠+细菌（见 A2 三联击）</td></tr>
+    <tr><td>此后 ~1 个月</td><td>持续拉稀（间歇性），精神尚可、活蹦乱跳</td><td>急性肠炎后未完全平复，或转食物反应性/慢性</td></tr>
+    <tr><td>近期</td><td>就医＋粪检无异常＋已驱虫；目前定量三餐但仍拉稀</td><td>基本排除寄生虫/传染病；非紧急，但已超慢性阈值(&gt;3周)</td></tr>
+    <tr><td>当前</td><td>老粮只剩一点买不到、只有新粮（京东京造 0谷物6肉8果蔬）；计划继续吃</td><td>面临"强制换粮"，见 B4 桥接法；该粮营养指标合格但原料复杂，需观察耐受</td></tr>
+  </tbody>
+</table>
+
+<h3 id="c2">C2 研判（事实 / 推断 / 建议 三层）</h3>
+<div class="layer fact"><b>事实层（已确认）</b>①公猫约6月；②间歇性腹泻1月余、精神好、粪检阴性、已驱虫；③幼期"吃多就拉"、4月+吃湿粮/猫条腹泻；④打疫苗在先、偷吃虾头在后；⑤定时三餐但仍拉稀；⑥老粮将尽、新粮为京东京造 0谷物6肉8果蔬，计划续吃。</div>
+<div class="layer inf"><b>推断层</b>①寄生虫/传染病基本排除；②核心为"幼期敏感肠＋虾头诱发炎症未愈/食物反应性"；③对湿粮/猫条的不耐受已被多次验证；④京东京造从营养指标看"合格"，但 6 肉 8 果蔬 + 鱼贝类对敏感肠属于<b>高风险配方</b>；⑤长期偏低喂食可能营养/水分不足，或关联毛色偏黄。</div>
+<div class="layer rec"><b>建议层</b>①维持定时、改<b>少食多餐（4餐）</b>，不盲目再减量；②用 B2 温和餐桥接强制换粮；③南瓜帮助固便＋补水＋有研究背书的益生菌；④停猫条/罐头；⑤记录 2 周；⑥若 &gt;2 周仍反复或出现警示→带新鲜粪便复查（粪PCR/B12/食物试验/低敏粮评估）。</div>
+
+<h3 id="c3">C3 多多的 14 天调整计划（含强制换粮）</h3>
+<table>
+  <thead><tr><th>阶段</th><th>做法</th><th>每日总量与分餐</th><th>目标</th></tr></thead>
+  <tbody>
+    <tr><td>第1–3天</td><td>以 B2 鸡胸+南瓜温和餐为主；新粮（京东京造）碾碎泡软，按 15–25% 拌入；若剩老粮则老20:新80 混；每餐拌 ¼–½ 茶匙南瓜；停零食</td><td>温和餐湿重 150–200g，分 4 餐，每餐 40–50g；干粮约 15g/日作为拌入</td><td>肠道休息＋给菌群适应期，不硬切</td></tr>
+    <tr><td>第4–7天</td><td>温和餐比例降、新粮占比升至 35–50%；南瓜维持 ½ 茶匙/餐；观察便便回 3–4 级</td><td>干粮约 30–40g/日；温和餐补足剩余热量</td><td>便便成形、稳定</td></tr>
+    <tr><td>第8–11天</td><td>新粮占 60–75%，其余温和餐；仍 4 餐</td><td>干粮约 50–65g/日；温和餐约 80–120g/日</td><td>逐步衔接新粮而不刺激</td></tr>
+    <tr><td>第12–14天</td><td>评估：稳→维持并缓慢把总量提到合理区间(60–84g/日，分3–4餐)；不稳→就医做食物试验/粪PCR/考虑低敏粮</td><td>干粮 60–84g/日或按体重公式；分 3–4 餐</td><td>建立长期可维持方案</td></tr>
+  </tbody>
+</table>
+<div class="note">关于"日总量"：6 月龄、约 3kg 的猫，干粮日需参考约 60–84g。多多目前"定量三餐但还是拉"，正确方向不是再减，而是在<b>不撑着</b>的前提下，用易消化高蛋白＋纤维＋少食多餐把总量稳回合理区间，同时观察体重与毛色。若对新粮始终不耐受，应换低敏/处方粮，而不是无限减量。</div>
+
+<h3 id="c4">C4 一页式快速排查卡（可打印）</h3>
+<div class="quick">
+  <h3>多多·腹泻快速排查卡</h3>
+  <p><b>身份：</b>公猫·约6月·狸花猫（疑彩狸/黄狸）·体重请称量后按 D2 公式·商品干粮（京东京造0谷物6肉8果蔬，过渡期观察）·定时多餐</p>
+  <p><b>当前状态：</b>间歇性拉稀1月＋、精神好、粪检阴性、已驱虫、无血/无吐/无消瘦；疫苗在先、虾头在后</p>
+  <hr style="border:none;border-top:1px dashed #b9c6c9">
+  <p><b>① 每天做：</b>铲砂看便便分级(目标2–3级)＋记饮食＋称水碗；每周称体重。</p>
+  <p><b>② 怎么喂：</b><b>定时少食多餐（4餐）</b>，<b>不要自由采食</b>（他吃多就拉）；南瓜 ¼–½ 茶匙/餐拌入；老粮尽则按 B4 桥接法换京东京造。</p>
+  <p><b>③ 补水量：</b>多水碗＋流动水＋肉汤，防脱水。</p>
+  <p><b>④ 益生菌：</b>选"标明菌株(如E. faecium SF68)+活菌数"的产品，≤40℃拌入。</p>
+  <p><b>⑤ 停一切：</b>猫条、罐头、人食、虾壳虾头、牛奶。</p>
+  <p><b>⑥ 立刻就医（任一）：</b>血便/黑便、呕吐、沉郁、脱水(提皮回弹慢)、消瘦拒食、&gt;2天无改善或反复超3周。</p>
+  <p><b>⑦ 复查时点：</b>按本卡执行 2 周仍反复→带<b>当天新鲜粪便</b>就医，查粪PCR/B12叶酸/食物排查试验。</p>
+  <p style="font-size:12.5px;color:#52606d">注：本卡为居家管理备忘，不替代兽医诊断。毛色偏黄建议同步关注体重与营养摄入，必要时体检。</p>
+</div>
+
+<h3 id="c5">C5 怎么喂：定时 vs 自由 ＋ 决策树（多种情况）</h3>
+<p><b>结论先行：多多应"定时少食多餐"，不要自由采食。</b>理由：他的病史是"吃多就拉"，自由采食=随时能吃=容易过量→反复软便；定时能把每餐渗透压负荷压低、便于观察"哪餐后拉肚子"反推诱因。</p>
+<div class="chart-box">
+  <svg viewBox="0 0 900 420" role="img" aria-label="喂食决策树">
+    <defs><marker id="ar2" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#52606d"/></marker></defs>
+    <g font-family="inherit" font-size="13" fill="#1f2933">
+      <!-- 起点 -->
+      <rect x="320" y="10" width="260" height="36" rx="8" fill="#0e7c86"/>
+      <text x="450" y="33" text-anchor="middle" fill="#fff" font-size="14">当前拉稀/软便？</text>
+      <line x1="450" y1="46" x2="450" y2="64" stroke="#52606d" marker-end="url(#ar2)"/>
+      <!-- 问题 -->
+      <polygon points="450,64 580,96 450,128 320,96" fill="#eef4f5" stroke="#0e7c86"/>
+      <text x="450" y="93" text-anchor="middle" font-size="12">活动期（≥4级）</text>
+      <text x="450" y="112" text-anchor="middle" font-size="12">还是已稳定（2–3级≥1周）？</text>
+      <!-- 活动期 -->
+      <line x1="320" y1="96" x2="200" y2="150" stroke="#52606d" marker-end="url(#ar2)"/>
+      <text x="245" y="92" font-size="11" fill="#c0392b">活动期</text>
+      <rect x="20" y="150" width="360" height="130" rx="8" fill="#fdecea" stroke="#c0392b"/>
+      <text x="200" y="174" text-anchor="middle" font-size="13.5" font-weight="bold">活动期（拉稀中）</text>
+      <text x="36" y="200" font-size="12.5">→ 定时 4 餐，每餐 15–21g 干粮</text>
+      <text x="36" y="222" font-size="12.5">→ 或 B2 温和餐每餐 35–45g 湿重</text>
+      <text x="36" y="244" font-size="12.5">→ 不加新零食；＋南瓜帮助固便</text>
+      <text x="36" y="266" font-size="12.5">→ ≥5级超2天 / 警示信号 → 就医</text>
+      <!-- 已稳 -->
+      <line x1="580" y1="96" x2="700" y2="150" stroke="#52606d" marker-end="url(#ar2)"/>
+      <text x="655" y="92" font-size="11" fill="#2e8b57">已稳定</text>
+      <rect x="520" y="150" width="360" height="130" rx="8" fill="#eafaf0" stroke="#2e8b57"/>
+      <text x="700" y="174" text-anchor="middle" font-size="13.5" font-weight="bold">已稳定（成形≥1周）</text>
+      <text x="536" y="200" font-size="12.5">→ 维持定时，日粮可微增 5–10%</text>
+      <text x="536" y="222" font-size="12.5">→ 想转自由采食？先观察 2 周</text>
+      <text x="536" y="244" font-size="12.5">→ 2 周无反复且猫不暴食</text>
+      <text x="536" y="266" font-size="12.5">→ 才可考虑；否则继续定时</text>
+      <!-- 判断量 -->
+      <line x1="200" y1="280" x2="350" y2="310" stroke="#52606d" marker-end="url(#ar2)"/>
+      <line x1="700" y1="280" x2="550" y2="310" stroke="#52606d" marker-end="url(#ar2)"/>
+      <rect x="180" y="310" width="540" height="90" rx="8" fill="#f3f6f7" stroke="#b9c6c9"/>
+      <text x="198" y="334" font-size="12.5" font-weight="bold">如何判断"量是否合适"：</text>
+      <text x="198" y="358" font-size="12.5">便便 2–3 级且精神好＝量 OK；4 级（偏软）＝维持不增＋南瓜；</text>
+      <text x="198" y="382" font-size="12.5">5–7 级＝减 10–15% 或回上一稳定量；体重下降＝就医。</text>
+    </g>
+  </svg>
+</div>
+<div class="note"><b>给多少的具体数：</b>6 月龄约 3kg → 干粮日需 <b>60–84g</b>。若 4 餐：每餐 <b>15–21g</b>；若 3 餐：每餐 <b>20–28g</b>。多多现在"定量三餐但还是拉"，可改为 4 餐并把单餐量下调一档（如每餐 17g），同时加南瓜帮助固便观察——<b>关键看便便反馈，而非死守克数</b>。</div>
+
+<!-- ============ PART D ============ -->
+<h2 id="d">Part D · 养护与行为</h2>
+
+<h3 id="d1">D1 如何判断猫咪吃饱了</h3>
+<p>猫不会用语言说"我饱了"，而且<b>碗空了≠饿了</b>——很多猫会把适口性高的食物吃到过量。判断要结合<b>行为信号＋身体状态＋便便反馈</b>。</p>
+<table>
+  <thead><tr><th>信号类型</th><th>吃饱了的表现</th><th>没吃饱 / 还想吃的表现</th></tr></thead>
+  <tbody>
+    <tr><td>进食行为</td><td>吃到一半放慢、走开、舔嘴、去理毛或趴下</td><td>一直追着你叫、扒碗、吃得太快、吃完立刻找你要</td></tr>
+    <tr><td>食物残留</td><td>定时喂食 20–30 分钟后碗里还剩一点</td><td>每次都光盘且还在舔空碗</td></tr>
+    <tr><td>身体状态</td><td>肋骨可摸到但有一层薄脂肪覆盖，腰可见</td><td>肋骨突出（偏瘦）或摸不到（肥胖）</td></tr>
+    <tr><td>便便</td><td>成形 2–3 级，每日 1–3 次</td><td>吃太多→软便/腹泻；吃太少→量少干硬</td></tr>
+    <tr><td>精力</td><td>有精神、爱玩耍、毛发光亮</td><td>无精打采、毛糙、体重下降</td></tr>
+  </tbody>
+</table>
+<div class="note"><b>实操：</b>定时喂食时，放餐后 20–30 分钟收碗。若猫常剩饭→下顿减 5%；若每次舔得干干净净且体重正常→维持；若舔完还叫且偏瘦→加 5–10%。不要"他叫就给"，很多猫叫是想要关注或馋，不是真饿。</div>
+
+<h3 id="d2">D2 按体重计算每日猫粮量</h3>
+<p>猫粮包装上给的"建议喂食量"是按理想体重和活动量的大致范围，个体可能差 20–30%。用下面三步法，再按便便调整。</p>
+<div class="card">
+  <h4 style="margin-top:0">三步计算法</h4>
+  <p><b>1. 称体重</b>：用厨房秤或抱猫称重法（人抱猫称－人单独称）。</p>
+  <p><b>2. 算每日热量</b>：</p>
+  <p style="font-size:15px"><code>日需热量(kcal) = 70 × 体重(kg)^0.75 × 系数</code></p>
+  <p>系数参考：6 月龄幼猫 <b>1.8–2.0</b>；已绝育成猫 1.2–1.4；肥胖减重 0.8–1.0。</p>
+  <p><b>3. 换算克数</b>：</p>
+  <p style="font-size:15px"><code>日粮(g) = 日需热量 ÷ 干粮热量密度(kcal/g)</code></p>
+  <p>普通膨化粮热量密度约 3.6–4.0 kcal/g，具体看包装"代谢能 ME"。</p>
+</div>
+<table>
+  <thead><tr><th>体重</th><th>日需热量（系数 1.9）</th><th>日粮克数（按 3.8 kcal/g）</th><th>4 餐时每餐</th><th>3 餐时每餐</th></tr></thead>
+  <tbody>
+    <tr><td>2.0 kg</td><td>~224 kcal</td><td>~59 g</td><td>~15 g</td><td>~20 g</td></tr>
+    <tr><td>2.5 kg</td><td>~264 kcal</td><td>~69 g</td><td>~17 g</td><td>~23 g</td></tr>
+    <tr><td><b>3.0 kg（多多默认估算）</b></td><td>~304 kcal</td><td><b>~80 g</b></td><td><b>~20 g</b></td><td><b>~27 g</b></td></tr>
+    <tr><td>3.5 kg</td><td>~344 kcal</td><td>~91 g</td><td>~23 g</td><td>~30 g</td></tr>
+  </tbody>
+</table>
+<div class="warn"><b>多多个案的调整：</b>上表是"理论上该吃多少"。因为他"吃多就拉"，建议<b>从同体重范围的下限开始</b>（3kg 先从每日 60–65g、每餐 15–16g 试起），稳定 3–5 天后再每周加 3–5g。最终目标不一定是表格中位数，而是以<b>便便 2–3 级、体重稳定或微增</b>为准。</div>
+
+<h3 id="d3">D3 定时定量 vs 自助采食：优劣对比 + 训猫方法</h3>
+<table>
+  <thead><tr><th>维度</th><th>定时定量</th><th>自助采食（碗一直放着）</th></tr></thead>
+  <tbody>
+    <tr><td>控制食量</td><td>✅ 精确，防暴食和肥胖</td><td>❌ 容易过量，尤其适口性好的粮</td></tr>
+    <tr><td>监测食欲</td><td>✅ 哪餐不吃立刻发现</td><td>❌ 难判断吃了多少、食欲变化</td></tr>
+    <tr><td>排查诱因</td><td>✅ 便于对应"哪餐后软便"</td><td>❌ 无法对应</td></tr>
+    <tr><td>多猫家庭</td><td>✅ 可单独控制每只猫</td><td>❌ 强势猫抢食，弱势猫吃不够</td></tr>
+    <tr><td>对敏感肠</td><td>✅ 降低每餐渗透压负荷</td><td>❌ 持续进食增加负担</td></tr>
+    <tr><td>方便程度</td><td>⚠️ 需要按时喂、收碗</td><td>✅ 省事，适合规律的上班族</td></tr>
+    <tr><td>猫的心理</td><td>⚠️ 初期可能乞食，但可训练</td><td>✅ 有安全感，随时可吃</td></tr>
+  </tbody>
+</table>
+<div class="ok"><b>结论：多多必须定时定量。</b>他的核心问题不是"吃不饱"，而是"吃多了消化不了"。自由采食会让他反复软便。等他成年、肠胃稳定、体重正常后，可再评估是否放宽。</div>
+
+<h4>训猫适应定时定量的方法</h4>
+<ol>
+  <li><b>固定时间、固定地点</b>：每天 4 餐在固定位置放碗，让他形成"到点才有饭"的预期。例如 7:00、12:00、18:00、22:00。</li>
+  <li><b>20–30 分钟收碗</b>：到点不吃也收走，下一顿再给。几次后他会明白"现在不吃就要等"。</li>
+  <li><b>不要额外给零食</b>：乞食时用玩具/互动转移，而不是给吃的。否则他学会"叫就有奖励"。</li>
+  <li><b>用益智漏食玩具</b>：把一餐粮放进漏食球，延长进食时间、增加饱腹感、降低暴食。</li>
+  <li><b>渐进调整</b>：从自由采食改定时，不要一天切换。先白天定时 3–4 餐，夜间短暂收碗，逐步过度到全天定时。</li>
+  <li><b>奖励好习惯</b>：安静等待、自己玩耍时给口头表扬或小零食（总量计入日粮）。</li>
+</ol>
+
+<h3 id="d4">D4 毛色变黄：是营养不够，还是其他原因？</h3>
+<p>多多"狸花猫但有点发黄"，可能有两类原因：<b>正常毛色变化</b> 或 <b>身体信号</b>。不要只凭毛色下结论，要结合其他指标。</p>
+<table>
+  <thead><tr><th>可能原因</th><th>典型表现</th><th>自测方法</th><th>怎么处理</th></tr></thead>
+  <tbody>
+    <tr><td><b>正常色素/品种因素</b></td><td>毛尖偏黄、皮肤不发黄、精神食欲好、体重稳定</td><td>拨开毛看发根和皮肤颜色；在自然光下拍照对比</td><td>无需处理，定期观察即可</td></tr>
+    <tr><td><b>营养不足</b>（蛋白、必需脂肪酸、锌、铜、酪氨酸不足）</td><td>毛发干枯无光泽、易断、体重偏低、精神尚可</td><td>称体重；记录饮食；评估蛋白质来源是否单一/不足；拍照 4–6 周后对比</td><td>提高优质动物蛋白比例；补充蛋黄（卵磷脂）或鱼油（对海鲜耐受的话）；必要时换营养更全面的粮</td></tr>
+    <tr><td><b>护理/清洁问题</b></td><td>毛尖黄、有油垢味、皮肤屑多</td><td>用白湿巾擦毛看是否掉色；观察是否过度舔毛</td><td>用猫用湿巾擦拭；调整饮食脂肪；必要时兽医皮肤科</td></tr>
+    <tr><td><b>环境染色</b></td><td>局部发黄（如蹭到尿、灰尘、烟渍）</td><td>洗澡/擦拭后看是否恢复</td><td>清洁环境、局部擦拭</td></tr>
+    <tr><td><b>黄疸（胆红素高）</b></td><td><b>皮肤、牙龈、眼白、耳内侧发黄</b>；可能伴食欲差、嗜睡、尿黄</td><td>在自然光下检查牙龈和眼白；看尿色是否深如浓茶</td><td><b>立即就医</b>，查肝功、胆红素、血常规</td></tr>
+  </tbody>
+</table>
+<div class="warn"><b>关键区分：</b>拨开毛看<b>皮肤</b>。如果皮肤也黄→黄疸可能，尽快就医；如果只是毛尖黄、皮肤正常→更可能是色素、营养或环境因素。</div>
+<div class="note"><b>针对多多的建议：</b>他目前精神好、食欲尚可，重点先排除黄疸（看牙龈/眼白/皮肤）；同时改善饮食质量（B2 高蛋白餐 + 蛋黄），记录体重和毛色 4 周。若体重不增或毛色更黄，就医查肝功和营养指标。</div>
+
+<h3 id="d5">D5 常见猫行为状态判断</h3>
+<p>猫不会说话，但耳朵、尾巴、瞳孔、身体姿态都在"说话"。学会读这些信号，能早发现不适或压力。</p>
+<table>
+  <thead><tr><th>身体部位</th><th>放松/舒适</th><th>紧张/害怕</th><th>兴奋/准备攻击</th><th>疼痛/不适</th></tr></thead>
+  <tbody>
+    <tr><td>耳朵</td><td>向前或自然斜立</td><td>向后贴平（飞机耳）</td><td>向前竖起、微微转动</td><td>不对称、频繁抖动</td></tr>
+    <tr><td>尾巴</td><td>自然下垂或尾尖微弯</td><td>夹紧、贴身体</td><td>竖起、尾尖弯曲、快速甩动</td><td>低垂、不愿被碰</td></tr>
+    <tr><td>瞳孔</td><td>正常大小</td><td>放大</td><td>放大、紧盯目标</td><td>半睁、无神或异常放大</td></tr>
+    <tr><td>身体</td><td>舒展、打滚、慢眨眼</td><td>蜷缩、躲藏、弓背</td><td>身体压低、臀部扭动</td><td>弓背、蜷缩、拒绝移动</td></tr>
+    <tr><td>叫声</td><td>轻柔喵、咕噜</td><td>嘶嘶、低吼、嚎叫</td><td>短促喵、 chirp</td><td>异常安静或频繁哀鸣</td></tr>
+    <tr><td>行为</td><td>主动蹭人、玩耍</td><td>躲藏、拒食、乱尿</td><td>扑击、抓咬玩具</td><td>舔毛减少或过度、食欲变</td></tr>
+  </tbody>
+</table>
+<div class="note"><b>实用口诀：</b>"耳朵向后要撤退，尾巴狂甩快停手，瞳孔放大别直视，躲藏拒食查身体。" 当猫同时出现<b>躲藏 + 拒食 + 精神差</b>，无论有没有腹泻，都建议尽快就医。</div>
+
+<h3 id="d6">D6 如何训练猫咪</h3>
+<p>猫可以训练，但方法和狗不同：要用<b>正向强化</b>（奖励想要的行为），避免惩罚（惩罚只会让他怕你和躲藏）。</p>
+<h4>基础原则</h4>
+<ul>
+  <li><b>奖励要及时</b>：行为发生后 1 秒内给零食，他才懂为什么被奖。</li>
+  <li><b>饭前训练</b>：饿的时候动力最强，用正餐粮当奖励也行。</li>
+  <li><b>短时高频</b>：每次 2–3 分钟，一天 2–3 次；猫注意力短。</li>
+  <li><b>一次只教一个动作</b>，熟练后再加新动作。</li>
+  <li><b>用响片或固定口令</b>：如"好"＋零食，建立条件反射。</li>
+</ul>
+<h4>几个实用训练</h4>
+<table>
+  <thead><tr><th>目标</th><th>步骤</th><th>用途</th></tr></thead>
+  <tbody>
+    <tr><td>听懂名字/过来</td><td>叫名字→零食；逐步拉长距离；只在给奖励时叫名字</td><td>唤回、紧急情况召回</td></tr>
+    <tr><td>坐下</td><td>拿零食在他鼻前慢慢向上移→他自然坐下→说"坐"→给零食</td><td>餐前礼仪、稳定情绪</td></tr>
+    <tr><td>进航空箱</td><td>把箱子当窝：放零食、毯子；逐步关短时间；出门前才不从"凭空出现"</td><td>看病、搬家减少应激</td></tr>
+    <tr><td>不挠家具</td><td>猫抓板放沙发旁；抓板时奖励；抓沙发时平静抱到抓板</td><td>保护家具</td></tr>
+    <tr><td>不咬手</td><td>见 D7 详细方案</td><td>避免玩耍性攻击/抚摸性攻击</td></tr>
+  </tbody>
+</table>
+<div class="note"><b>核心：</b>训练不是让猫"听话"，而是建立沟通，让他知道做什么能得到好处。对多多来说，"坐下等开饭"还能防止他因为饿而吃太快、吃太急。</div>
+
+<h3 id="d7">D7 撸猫舒服却转头抱手咬：为什么、如何避免、如何改善</h3>
+<p>这是典型的<b>抚摸性攻击/抚摸性过度刺激</b>（Petting-induced aggression）。猫享受抚摸时，神经兴奋累积到某个阈值，突然觉得"够了"，于是用咬来表达"停止"。这不是猫"坏"，而是<b>他不会用别的方式说"停"</b>，而你可能忽略了他 earlier 的警告信号。</p>
+
+<h4>为什么会这样</h4>
+<ul>
+  <li><b>静态刺激的阈值</b>：反复抚摸同一区域会让皮肤神经越来越敏感，超过阈值后从"舒服"变成"不适"。</li>
+  <li><b>早期信号被忽略</b>：猫在咬之前通常已经给了很多暗示，只是人没注意到。</li>
+  <li><b>部位不对</b>：肚子、尾根、后背末端对某些猫是"禁区"；脸颊、耳根、下巴通常耐受更高。</li>
+  <li><b>猫的个性差异</b>：有些猫天生耐受低，只能接受短时间的抚摸。</li>
+  <li><b>幼猫没学好</b>：如果幼年期缺少与同类/人的温和互动，容易把咬当成沟通方式。</li>
+</ul>
+
+<h4>咬人前的预警信号（出现任一就停手）</h4>
+<table>
+  <thead><tr><th>信号</th><th>表现</th></tr></thead>
+  <tbody>
+    <tr><td>耳朵</td><td>耳朵开始向后转、飞机耳</td></tr>
+    <tr><td>尾巴</td><td>尾尖快速抽动、尾巴重重拍打地面</td></tr>
+    <tr><td>皮肤</td><td>被摸部位皮肤轻微抽动/起涟漪</td></tr>
+    <tr><td>头</td><td>突然转头看你或舔你的手</td></tr>
+    <tr><td>身体</td><td>肌肉变紧、身体僵硬、停止呼噜</td></tr>
+    <tr><td>声音</td><td>发出低沉喵呜或轻嘶</td></tr>
+  </tbody>
+</table>
+
+<h4>如何避免被咬</h4>
+<ol>
+  <li><b>缩短抚摸时间</b>：每次只摸 5–10 秒，然后停手观察他的反应。如果他还蹭你要继续，再继续；如果他没反应或走开，就结束。</li>
+  <li><b>选对部位</b>：先从脸颊、耳根、下巴开始；避开肚子、尾根和他敏感的后背区域。</li>
+  <li><b>看信号</b>：一旦看到耳朵后转、尾巴甩、皮肤抽动，立刻停手，把手收回。</li>
+  <li><b>不要用手当玩具</b>：从小就不要用手逗他扑咬，否则他会习惯"手=猎物/玩具"。用逗猫棒、玩具老鼠替代。</li>
+  <li><b>让猫有掌控感</b>：让他主动蹭上来求摸，而不是你一把抓过来。他想结束时就让他走。</li>
+</ol>
+
+<h4>如何改善（已经会咬怎么办）</h4>
+<ol>
+  <li><b>不惩罚、不打</b>：打猫只会让他更紧张，可能升级为真咬或躲你。被咬时平静地把手收走，离开现场，结束互动。</li>
+  <li><b>建立"摸=好事"的条件反射</b>：摸 3–5 秒→给一小块零食→停手。让他把"被摸"和"好吃的"联系起来，同时摸的时间短，不容易触发攻击。</li>
+  <li><b>逐步延长耐受</b>：从他能接受的最短时间开始，每周增加 2–3 秒，配合奖励。不要急于求成。</li>
+  <li><b>教他替代行为</b>：当他开始有咬手倾向时，立刻给玩具（逗猫棒）让他咬；咬玩具=可以，咬手=游戏结束。</li>
+  <li><b>降低整体压力</b>：环境丰富（猫抓板、高处栖息、 hiding places）、规律作息、充足玩耍，都能提高猫的总体耐受阈值。</li>
+  <li><b>必要时就医</b>：如果攻击伴随疼痛反应（被摸到某处就咬）、食欲变化、精神差，要排查皮肤病、关节炎、牙齿问题等。</li>
+</ol>
+<div class="ok"><b>总结：</b>转头抱手咬 = "我现在不想被摸了"。学会看他的预警信号、缩短抚摸、不用手当玩具，配合奖励和替代行为，绝大多数猫会明显改善。</div>
+
+<!-- ============ REFS ============ -->
+<h2 id="refs">参考文献与来源</h2>
+<div class="card src">
+  <ul>
+    <li>VCA Animal Hospitals. <i>Diarrhea in Cats</i>（定义/病因/严重性/诊断/治疗/预后）. 访问 2026-10-15.</li>
+    <li>catmd.ca. <i>Diarrhea in Cats</i>（病理生理分类：渗透/分泌/渗出/动力；小肠vs大肠鉴别；病因）. 访问 2026-10-15.</li>
+    <li>Expert Cat Care. <i>Why Does My Cat Have Diarrhea? Investigations &amp; Treatment</i>（急慢性定义、小肠/大肠表、年龄分层）. 访问 2026-10-15.</li>
+    <li>SpectrumCare. <i>Chronic Diarrhea in Cats</i>（慢性≥3周或一月内反复；检查路径；警示信号）. 访问 2026-10-15.</li>
+    <li>Small Animal Internal Medicine（教科书 PMC7151799）. Table 11-1 小肠 vs 大肠腹泻鉴别. 访问 2026-10-15.</li>
+    <li>Torres-Henderson C, et al. <i>Effect of Enterococcus faecium SF68 on GI Signs and Fecal Microbiome in Cats Administered Amoxicillin-Clavulanate.</i> Top Companion Anim Med. 2017;32(3):104-108. PMID: 29291771（RCT，P=0.0058）.</li>
+    <li>Purina Pro Plan Veterinary Diets. <i>Feline FortiFlora</i> 产品资料（SF68 对慢性腹泻/幼猫腹泻证据）.</li>
+    <li>AAFP（catvets.com）会议综述. <i>Probiotics in cats</i>（证据最强于GI综合征；产品质量参差）. 访问 2026-10-15.</li>
+    <li>Biology Insights / CatSphere / ScienceInsights / PetsCare. <i>Pumpkin for cats diarrhea</i>（可溶性纤维机理、剂量、忌南瓜派馅）. 访问 2026-10-15.</li>
+    <li>氧宠博士（isdpp.com）. <i>猫咪"玻璃胃"怎么调理 / 经常软便怎么调理</i>（定时定量、慢换粮、优质动物蛋白、益生菌）. 访问 2026-10-15.</li>
+    <li>宠搜网（chongso.com）. <i>猫咪软便原因与调理 / 7天换粮法</i>. 访问 2026-10-15.</li>
+    <li>台湾宠物营养保健食品学会. <i>七天渐进去粮法之科学实践与临床指引</i>（菌群记忆、敏感猫延长10–14天）. 访问 2026-10-15.</li>
+    <li>东北网. <i>《2026中国宠物行业白皮书》喂养行为调研</i>（&gt;62%宠主换粮、约四成换粮后软便）. 访问 2026-10-15.</li>
+    <li>猫后苑（catgarden.app, HK）. <i>猫咪拉肚子原因与就医判断</i>（7日换粮、寄生虫假阴性、便色判读、慢性&gt;2–3周就医）. 访问 2026-10-15.</li>
+    <li>虾/海鲜风险多篇（ouyi89、ouyi81、dongwangask、baidu健康）. <i>猫吃虾风险</i>（虾壳几丁质难消化/梗阻、虾头组胺、高钠、生虾细菌、过敏、零食≤10%热量）. 访问 2026-10-15.</li>
+    <li>Radiokop Animal Clinic. <i>Chronic diarrhoea in dogs and cats</i>（高消化蛋白+低脂肪 bland diet；益生菌）. 访问 2026-10-15.</li>
+    <li>中华人民共和国国家标准 GB/T 31217-2014《全价宠物食品 猫粮》（粗蛋白、粗脂肪、牛磺酸、钙磷等指标要求）.</li>
+    <li>京东京造商品详情页公开信息（0谷物6肉8果蔬猫粮：粗蛋白≥38%、粗脂肪≥16%、牛磺酸≥0.2%、0谷物、6种肉、8种果蔬、200亿CFU/kg益生菌）. 访问 2026-10-15.</li>
+    <li>国际猫科动物医学协会（AAFP/ISFM）行为指南. <i>Feline-Friendly Handling Guidelines</i>（抚摸性攻击、应激信号、训练原则）. 访问 2026-10-15.</li>
+    <li>商品评估说明：文中"京东京造 0谷物6肉8果蔬"仅为结合多多个案的客观分析，非推荐/背书，具体选粮请遵兽医建议。</li>
+  </ul>
+</div>
+
+<footer>
+  <p><b>免责声明：</b>本文为科普与居家管理参考，内容综合自上述公开权威信源并标注，<b>不能替代执业兽医诊断与治疗</b>。如症状加重或出现警示信号，请立即就医。</p>
+  <p>文档版本 v3 ｜ 生成 2026-10-15 ｜ 作者：爱莉（WorkBuddy 执行型协作者）｜ 同步：ima 中转区 + QQ邮箱（jaeyeonn@qq.com）</p>
+</footer>
+
+</div>
+</body>
+</html>
+<!-- END_PART_D -->
+
+
+

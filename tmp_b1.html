@@ -1,0 +1,55 @@
+<html><head><meta charset=utf-8><style>body{margin:0;background:#fff;font-family:PingFang SC,Microsoft YaHei,sans-serif}svg{display:block;margin:0 auto}</style></head><body><svg viewBox="0 0 940 600" role="img" aria-label="腹泻标准化排查决策树（完整版）">
+    <defs>
+      <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#52606d"/></marker>
+    </defs>
+    <g font-family="inherit" font-size="13" fill="#1f2933">
+      <!-- A 起点 -->
+      <rect x="370" y="8" width="200" height="34" rx="8" fill="#0e7c86"/><text x="470" y="30" text-anchor="middle" fill="#fff">腹泻发生</text>
+      <line x1="470" y1="42" x2="470" y2="63" stroke="#52606d" marker-end="url(#ar)"/>
+      <!-- B 时长/精神 -->
+      <polygon points="340,95 470,63 600,95 470,127" fill="#eef4f5" stroke="#0e7c86"/>
+      <text x="470" y="89" text-anchor="middle" font-size="12.5">≤2天 且</text><text x="470" y="106" text-anchor="middle" font-size="12.5">精神食欲正常？</text>
+      <!-- 是 → C 居家 -->
+      <line x1="340" y1="95" x2="292" y2="118" stroke="#52606d" marker-end="url(#ar)"/>
+      <text x="318" y="92" font-size="11" fill="#2e8b57">是</text>
+      <rect x="40" y="118" width="252" height="58" rx="8" fill="#eafaf0" stroke="#2e8b57"/>
+      <text x="166" y="142" text-anchor="middle">居家观察＋单一易消化餐</text><text x="166" y="162" text-anchor="middle">＋记录（见 B2/B7）</text>
+      <!-- 否 → D 警示 -->
+      <line x1="470" y1="127" x2="470" y2="150" stroke="#52606d" marker-end="url(#ar)"/>
+      <text x="486" y="144" font-size="11" fill="#c0392b">否</text>
+      <polygon points="310,200 470,168 630,200 470,232" fill="#eef4f5" stroke="#0e7c86"/>
+      <text x="470" y="194" text-anchor="middle" font-size="12.5">有警示信号？</text>
+      <text x="470" y="210" text-anchor="middle" font-size="11.5" fill="#52606d">血/吐/沉郁/脱水/消瘦</text>
+      <!-- D 是 → E 急诊 -->
+      <line x1="630" y1="200" x2="680" y2="200" stroke="#52606d" marker-end="url(#ar)"/>
+      <text x="654" y="192" font-size="11" fill="#c0392b">是</text>
+      <rect x="682" y="176" width="238" height="48" rx="8" fill="#c0392b"/><text x="801" y="203" text-anchor="middle" fill="#fff"><b>立即就医（急诊）</b></text>
+      <!-- D 否 → F 定位 -->
+      <line x1="470" y1="232" x2="470" y2="258" stroke="#52606d" marker-end="url(#ar)"/>
+      <text x="486" y="252" font-size="11" fill="#1f6f78">否</text>
+      <polygon points="350,310 470,278 590,310 470,342" fill="#eef4f5" stroke="#0e7c86"/>
+      <text x="470" y="306" text-anchor="middle" font-size="12.5">大便特征定位？</text>
+      <!-- F 小肠 → G -->
+      <line x1="350" y1="310" x2="290" y2="322" stroke="#52606d" marker-end="url(#ar)"/>
+      <text x="300" y="304" font-size="11" fill="#1f6f78">小肠型</text>
+      <rect x="30" y="300" width="258" height="74" rx="8" fill="#eef4f5" stroke="#1f9aa3"/>
+      <text x="159" y="322" text-anchor="middle">小肠型：量大/消瘦/呕吐</text>
+      <text x="159" y="342" text-anchor="middle">→ 查全身病：血检·甲功·</text><text x="159" y="362" text-anchor="middle">胰·B12·腹腔超声</text>
+      <!-- F 大肠 → H -->
+      <line x1="590" y1="310" x2="650" y2="322" stroke="#52606d" marker-end="url(#ar)"/>
+      <text x="640" y="304" font-size="11" fill="#1f6f78">大肠型</text>
+      <rect x="650" y="300" width="262" height="74" rx="8" fill="#eef4f5" stroke="#1f9aa3"/>
+      <text x="781" y="322" text-anchor="middle">大肠型：频繁/黏液/鲜血</text>
+      <text x="781" y="342" text-anchor="middle">→ 粪检(注意假阴性)＋</text><text x="781" y="362" text-anchor="middle">食物排查试验 2–4 周</text>
+      <!-- G/H → I 仍无效 -->
+      <line x1="200" y1="374" x2="300" y2="430" stroke="#52606d" marker-end="url(#ar)"/>
+      <line x1="780" y1="374" x2="640" y2="430" stroke="#52606d" marker-end="url(#ar)"/>
+      <rect x="300" y="430" width="340" height="46" rx="8" fill="#fff3e0" stroke="#e08a2b"/>
+      <text x="470" y="458" text-anchor="middle">仍无效（&gt;2–4周）</text><text x="470" y="476" text-anchor="middle">→ 粪PCR / 肠镜活检 / 专科</text>
+      <!-- 换粮/偷吃 旁注 -->
+      <rect x="30" y="500" width="880" height="74" rx="8" fill="#f3f6f7" stroke="#b9c6c9"/>
+      <text x="46" y="524" font-size="12.5" fill="#1f2933"><b>贯穿所有分支的两件事：</b></text>
+      <text x="46" y="546" font-size="12.5" fill="#52606d">① 换粮/偷吃/只有新粮？→ 见 B4「只有新粮怎么办」与 C5 喂食决策；幼猫<b>别长时间断食</b>。</text>
+      <text x="46" y="566" font-size="12.5" fill="#52606d">② 全程记录便便分级（目标 2–3 级）、饮食、体重；带<b>当天新鲜粪便</b>就医以提高检出率。</text>
+    </g>
+  </svg></body></html>
